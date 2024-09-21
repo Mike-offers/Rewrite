@@ -1,3 +1,4 @@
+/**
 > 脚本名称          iTunes集合脚本
 > 作者              M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
 > 电报频道          https://t.me/TrollStoreKios 
@@ -12,7 +13,7 @@ https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/Quantumu
 [mitm]
 
 hostname = buy.itunes.apple.com
-
+**/
 var Mike = JSON.parse($response.body);
 
 var productidmap = {
