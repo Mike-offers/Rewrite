@@ -46,9 +46,9 @@ var productidmap={
 	'com.icandiapps.nightsky':['nightsky','com.icandiapps.ns4.annual',0],
 	'com.lixkit.diary':['diary','com.lixkit.diary.permanent_68',0],
 	'com.touchbits.subscriptions':['dyt','com.touchbits.subscriptions.iap.pro.yearly',0],
-	'dev.sanjin.WasteCat':['cat','dev.sanjin.WasteCat.PermanentVip',1]
+	'dev.sanjin.WasteCat':['cat','dev.sanjin.WasteCat.PermanentVip',1],
   'mobi.musicparadise.VoiceTunerPerfectSong': ['syclq', 'anyu_y', 1];
-  'com.CalculatorForiPad.InternetRocks': ['calculatorair', 'co.airapps.calculator.year', 1]
+  'com.CalculatorForiPad.InternetRocks': ['calculatorair', 'co.airapps.calculator.year', 1];
 }
 
 // ========= 固定部分 ========= //
