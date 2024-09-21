@@ -17,7 +17,7 @@ hostname = buy.itunes.apple.com
 
 *************************************/
 
-=== 动态ID ========= //
+//========= 动态ID ========= //
 var productidmap={
 	'default':['ddgksf2013','https://t.me/ddgksf2021',0],
 	'com.sugarmo.ScrollClip':['picsewV3.9.4','com.sugarmo.ScrollClip.pro',1],
