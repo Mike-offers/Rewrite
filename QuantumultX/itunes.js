@@ -1,14 +1,16 @@
 /*************************************
+
 > 脚本名称          iTunes集合脚本
 > 作者              M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
 > 电报频道          https://t.me/TrollStoreKios 
 > 更新时间          2024-09-21
 > 注意事项          如需引用请注明出处，谢谢合作！
 > 注意事项          使用此脚本，会导致AppleStore无法切换账户，解决方法[关闭QX切换账户，或关闭MITM，或删除脚本，或去设置媒体与购买项目处切换ID]
+
 **************************************
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/itunes.js
 
 [mitm]
 hostname = buy.itunes.apple.com
