@@ -23,7 +23,7 @@ var Mike = JSON.parse($response.body);
 var productidmap = {
   'default': ['https://t.me/TrollStoreKios', 0],
   'mobi.musicparadise.VoiceTunerPerfectSong': ['anyu_y', 1];
-  'com.CalculatorForiPad.InternetRocks': ['co.airapps.calculator.year', 0];
+  'com.CalculatorForiPad.InternetRocks': ['co.airapps.calculator.year', 1];
 };
 
 var bundleid = Mike.receipt.bundle_id;
