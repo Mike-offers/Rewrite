@@ -6,7 +6,8 @@
 > 注意事项          使用此脚本，会导致AppleStore无法切换账户，解决方法[关闭QX切换账户，或关闭MITM，或删除脚本，或去设置媒体与购买项目处切换ID]
 [rewrite_local]
   
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/itunes.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body 
+https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/itunes.js
 
 [mitm]
 
