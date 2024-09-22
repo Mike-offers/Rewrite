@@ -23,33 +23,8 @@ var Mike = JSON.parse($response.body);
 // ========= 核心数据 ========= //
 var productidmap={
 	'default':['https://t.me/TrollStoreKios',0],
-	'com.sugarmo.ScrollClip':['com.sugarmo.ScrollClip.pro',1],
-	'com.zijayrate.analogcam':['com.zijayrate.analogcam.vipforever10',0],
-	'com.loveyouchenapps.knockout':['com.knockout.7daysplus',0],
-	'net.shinyfrog.bear-iOS':['net.shinyfrog.bear_iOS.pro_yearly_subscription_bis',0],
-	'com.yengshine.proccd':['com.yengshine.proccd.year',0],
-	'com.yumiteam.Kuki.ID':['com.yumiteam.Kuki.ID.4',1],
-	'com.calc.iphone':['calc_Unlock_1',0],
-	'me.imgbase.intolive':['me.imgbase.intolive.proSubYearly',0],
-	'MVH6DNU2ZP.input':['com.logcg.loginput',1],
-	'com.waterminder.waterminder':['waterminder.premiumYearly',0],
-	'wtf.riedel.one-sec':['wtf.riedel.one_sec.pro.annual.individual',0],
-	'com.aaaalab.nepacket':['com.li.blur.pro.month',0],
-	'com.inturnex.Sticker-Maker':['com.inturnex.Sticker_Maker.full_access',1],
-	'FuYuan.inkDiary':['FuYuan.inkDiary.YearB.Pro',0],
-	'me.imgbase.imgplay':['me.imgbase.imgplay.subscriptionYearly',0],
-	'com.mediaeditor.video':['yearautorenew',0],
-	'com.anycasesolutions.SexTracker':['com.anycasesolutions.SexTracker.3mon',0],
-	'com.jianili.pawff':['com.jianili.pawff.pro.monthly',0],
-	'icar.ren.smk':['smoke19870727',0],
-	'com.meditation.heartratehrv':['lifetimeusa',1],
-	'livintis.com.wallpapermonster':['wallpaperworld.subscription.yearly.12.notrial',0],
-	'com.tianlang.gifmaker':['com.tianlang.gifmaker.forever',1],
-	'me.imgbase.videoday':['me.imgbase.videoday.profeaturesYearly',0],
-	'com.icandiapps.nightsky':['com.icandiapps.ns4.annual',0],
-	'com.lixkit.diary':['com.lixkit.diary.permanent_68',0],
-	'com.touchbits.subscriptions':['com.touchbits.subscriptions.iap.pro.yearly',0],
-	'dev.sanjin.WasteCat':['dev.sanjin.WasteCat.PermanentVip',1]
+	'com.sugarmo.ScrollClip':['com.sugarmo.ScrollClip.pro',true],
+	'co.CalculatorForiPad.InternetRocks':['co.airapps.calculator.year',true]
 }
 
 var mapid = Mike.receipt.bundle_id;
