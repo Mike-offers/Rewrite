@@ -18,7 +18,7 @@ hostname = buy.itunes.apple.com
 
 *************************************/
 
-var Mike = JSON.parse($response.body);
+var ddgksf2013 = JSON.parse($response.body);
 
 var productidmap = {
   'default': ['https://t.me/TrollStoreKios', 0],
