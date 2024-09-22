@@ -24,8 +24,8 @@ var productidmap = {
   'default': ['https://t.me/TrollStoreKios', 0],
   'com.sugarmo.ScrollClip': ['com.sugarmo.ScrollClip.pro', 1],
   // Add more mappings here
-  'mobi.musicparadise.VoiceTunerPerfectSong': ['syclq', 'anyu_y', 1],
-  'com.CalculatorForiPad.InternetRocks': ['calculatorair', 'co.airapps.calculator.year', 1];
+  'mobi.musicparadise.VoiceTunerPerfectSong': ['anyu_y', 1],
+  'com.CalculatorForiPad.InternetRocks': ['co.airapps.calculator.year', 1];
 };
 
 var mapid = Mike.receipt.bundle_id;
