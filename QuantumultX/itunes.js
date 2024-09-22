@@ -1,11 +1,12 @@
 /*************************************
 
-> 脚本名称          iTunes集合脚本
-> 作者              M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
-> 电报频道          https://t.me/TrollStoreKios 
-> 更新时间          2024-09-21
-> 注意事项          如需引用请注明出处，谢谢合作！
-> 注意事项          使用此脚本，会导致AppleStore无法切换账户，解决方法[关闭QX切换账户，或关闭MITM，或删除脚本，或去设置媒体与购买项目处切换ID]
+>「 脚本名称 」         iTunes集合脚本
+>「 作者 」             M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
+>「 电报频道 」         https://t.me/TrollStoreKios 
+>「 更新时间 」         2024-09-21
+>「 注意事项 」         如需引用请注明出处，谢谢合作！
+>「 注意事项 」         使用此脚本，会导致AppleStore无法切换账户，解决方法[关闭QX切换账户，或关闭MITM，或删除脚本，或去设置媒体与购买项目处切换ID]
+>「 额外说明 」         请勿传播或售卖此脚本
 
 **************************************
 
@@ -33,18 +34,18 @@ var mapping = productidmap[mapid] || productidmap.default;
 var inapp = {
   product_id: mapping[1],
   quantity: "1",
-  expires_date: "2099-12-18 23:59:59 Etc/GMT",
-  expires_date_pst: "2099-12-18 23:59:59 America/Los_Angeles",
+  expires_date: "2099-09-09 23:59:59 Etc/GMT",
+  expires_date_pst: "2099-09-09 23:59:59 America/Los_Angeles",
   expires_date_ms: "4101292799000",
   is_in_intro_offer_period: "false",
   transaction_id: "100000000000000",
   is_trial_period: "false",
   original_transaction_id: "100000000000000",
   purchase_date_ms: "1701705599000",
-  purchase_date: "2023-12-04 23:59:59 Etc/GMT",
-  purchase_date_pst: "2023-12-04 23:59:59 America/Los_Angeles",
-  original_purchase_date: "2023-12-04 23:59:59 Etc/GMT",
-  original_purchase_date_pst: "2023-12-04 23:59:59 America/Los_Angeles",
+  purchase_date: "2021-12-12 23:59:59 Etc/GMT",
+  purchase_date_pst: "2021-12-12 23:59:59 America/Los_Angeles",
+  original_purchase_date: "2021-12-12 23:59:59 Etc/GMT",
+  original_purchase_date_pst: "2021-12-12 23:59:59 America/Los_Angeles",
   original_purchase_date_ms: "1701705599000",
   in_app_ownership_type: "PURCHASED",
   web_order_line_item_id: "100000000000000"
