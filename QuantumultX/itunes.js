@@ -52,25 +52,24 @@ var productidmap={
 	'dev.sanjin.WasteCat':['dev.sanjin.WasteCat.PermanentVip',1]
 }
 
-// 固定部分
 var mapid = Mike.receipt.bundle_id;
 var mapping = productidmap[mapid] || productidmap.default;
 
 var inapp = {
     product_id: mapping[0],
     quantity: "1",
-    expires_date: "2099-12-18 23:59:59 Etc/GMT",
-    expires_date_pst: "2099-12-18 23:59:59 America/Los_Angeles",
+    expires_date: "2099-09-09 09:09:09 Etc/GMT",
+    expires_date_pst: "2099-09-09 09:09:09 America/Los_Angeles",
     expires_date_ms: "4101292799000",
-    is_in_intro_offer_period: "false",
+    is_in_intro_offer_period: "true",
     transaction_id: "100000000000000",
     is_trial_period: "false",
     original_transaction_id: "100000000000000",
     purchase_date_ms: "1701705599000",
-    purchase_date: "2023-12-04 23:59:59 Etc/GMT",
-    purchase_date_pst: "2023-12-04 23:59:59 America/Los_Angeles",
-    original_purchase_date: "2023-12-04 23:59:59 Etc/GMT",
-    original_purchase_date_pst: "2023-12-04 23:59:59 America/Los_Angeles",
+    purchase_date: "2009-09-09 09:09:09 Etc/GMT",
+    purchase_date_pst: "2009-09-09 09:09:09 America/Los_Angeles",
+    original_purchase_date: "2009-09-09 09:09:09 Etc/GMT",
+    original_purchase_date_pst: "2009-09-09 09:09:09 America/Los_Angeles",
     original_purchase_date_ms: "1701705599000",
     in_app_ownership_type: "PURCHASED",
     web_order_line_item_id: "100000000000000"
