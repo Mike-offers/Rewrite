@@ -18,7 +18,7 @@ hostname = buy.itunes.apple.com
 
 *************************************/
 
-var ddgksf2013 = JSON.parse($response.body);
+var Mike = JSON.parse($response.body);
 
 // ========= 动态ID ========= //
 var productidmap={
@@ -53,8 +53,8 @@ var productidmap={
 }
 
 // 固定部分
-ddgksf2013.Attention = "恭喜你抓到元数据！由墨鱼分享，请勿售卖或分享他人！";
-var mapid = ddgksf2013.receipt.bundle_id;
+Mike.Attention = "恭喜你抓到元数据！由墨鱼分享，请勿售卖或分享他人！";
+var mapid = Mike.receipt.bundle_id;
 var mapping = productidmap[mapid] || productidmap.default;
 
 var inapp = {
@@ -89,13 +89,13 @@ if (mapping[2]) {
     delete inapp.expires_date_ms;
     delete inapp.expires_date_pst;
 } else {
-    ddgksf2013.latest_receipt_info = [inapp];
-    ddgksf2013.latest_receipt = "https://t.me/ddgksf2021";
-    ddgksf2013.pending_renewal_info = [renew];
+    Mike.latest_receipt_info = [inapp];
+    Mike.latest_receipt = "https://t.me/TrollStoreKios";
+    Mike.pending_renewal_info = [renew];
 }
 
-ddgksf2013.receipt.in_app = [inapp];
+Mike.receipt.in_app = [inapp];
 
-console.log('操作成功🎉🎉🎉\nCuttlefishの自留地: https://t.me/ddgksf2021');
+console.log('操作成功🎉🎉🎉\n我的电报频道：https://t.me/TrollStoreKios');
 
-$done({ body: JSON.stringify(ddgksf2013) });
+$done({ body: JSON.stringify(Mike) });
