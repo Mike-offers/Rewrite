@@ -11,15 +11,15 @@
 **************************************
 
 [rewrite_local]
-https:\/\/appv4\.filmix\.com\.cn\/api\/v4\/users url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Filmix.js
+https:\/\/appv2\.filmix\.com\.cn\/api\/v4\/users url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Filmix.js
 
 [mitm]
-hostname = appv4.filmix.com
+hostname = appv2.filmix.com
 
 *************************************/
 
-var SuperMike = JSON.parse($response.body);
+var Mike = JSON.parse($response.body);
 Mike.is_vip = true;
 Mike.vip_start_time = "2009-09-09T10:10:10.101198+08:00";
 Mike.vip_end_time = "2099-09-09T15:33:15.101198+08:00";
-$done({ body: JSON.stringify(SuperMike)});
+$done({ body: JSON.stringify(Mike)});
