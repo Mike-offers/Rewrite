@@ -11,10 +11,10 @@
 **************************************
 
 [rewrite_local]
-https:\/\/appv2\.filmix\.com\.cn\/api\/v4\/users url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Filmix.js
+https:\/\/appv4\.filmix\.com\.cn\/api\/v4\/users url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Filmix.js
 
 [mitm]
-hostname = appv2.filmix.com
+hostname = appv4.filmix.com
 
 *************************************/
 
