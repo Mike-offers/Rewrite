@@ -21,7 +21,7 @@ hostname = apiv2.hula123.com
 var Mike = JSON.parse($response.body);
 
 Mike.data.vip_expire_at = "2099-09-09";
-Mike.data.vip_expire_data = "2099-09-09";
+Mike.data.vip_expire_date = "2099-09-09";
 Mike.data.show_free_vip_dialog = true;
 Mike.data.is_free_vip = true;
 Mike.data.is_vip = true;
