@@ -17,3 +17,16 @@
 hostname = apiv2.hula123.com
 
 *************************************/
+
+var Mike = JSON.parse($response.body);
+
+Mike.data.vip_expire_at = "2099-09-09";
+Mike.data.vip_expire_data = "2099-09-09";
+Mike.data.show_free_vip_dialog = true;
+Mike.data.is_free_vip = true;
+Mike.data.is_vip = true;
+Mike.data.level = "4";
+Mike.data.nick_name = "Tg频道@TrollStoreKios";
+Mike.data.avatar = "https://star7-1301731293.cos.ap-shanghai.myqcloud.com/user_avatar/1721058054.416775.png";
+
+$done({ body: JSON.stringify(Mike)});
