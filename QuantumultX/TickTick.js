@@ -16,7 +16,7 @@ hostname = ticktick.com
 
 *************************************/
 
-let Mike = JSON.parse($response.body); 
+var Mike = JSON.parse($response.body); 
 
 Mike.proEndDate = "2099-09-09T00:00:00.000+0000";  
 Mike.pro = true;
