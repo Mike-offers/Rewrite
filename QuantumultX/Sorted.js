@@ -23,6 +23,8 @@ var Mike = JSON.parse($response.body);
 const vip = '/verify';
 
 var data = {
+  "status" : 0,
+  "receipt" : {
     "receipt_type" : "Production",
     "app_item_id" : 1306893526,
     "receipt_creation_date" : "2022-09-21 11:40:33 Etc/GMT",
@@ -43,11 +45,16 @@ var data = {
     "receipt_creation_date_ms" : "1663760433000",
     "original_application_version" : "185",
     "download_id" : 83070431858296
-  };
+  },
+  "isPro" : true,
+  "environment" : "Production",
+  "flagged" : false,
+  "isBundleEnabled" : true,
+  "isCustomer" : false
+};
 
 if ($request.url.indexOf(vip) != -1) {
-    Mike.isPro = true;
-    Mike.receipt = data;
+    Mike = data;
     body = JSON.stringify(Mike);
 }
 $done({body});
