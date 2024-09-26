@@ -1,7 +1,7 @@
 ﻿/*************************************
 
 >「 脚本名称 」         iTunes集合脚本
->「 脚本作者 」            M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
+>「 脚本作者 」         M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
 >「 电报频道 」         https://t.me/TrollStoreKios 
 >「 更新时间 」         2024-09-25
 >「 注意事项 」         如需引用请注明出处，谢谢合作！
@@ -18,6 +18,7 @@ hostname = api.sortedapp.com
 
 *************************************/
 
+var Mike = JSON.parse($response.body);
 var data = {
   "status" : 0,
   "receipt" : {
@@ -47,5 +48,11 @@ var data = {
   "flagged" : false,
   "isBundleEnabled" : true,
   "isCustomer" : false
-}; var Mike = JSON.parse($response.body); const vip = '/verify'; if ($request.url.indexOf(vip) != -1) { Mike = data; 	body = JSON.stringify(Mike); } $done({body}); 
+};  
+const vip = '/verify'; 
+if ($request.url.indexOf(vip) != -1) { 
+    Mike = data; 	
+    body = JSON.stringify(Mike); 
+} 
+$done({body}); 
 
