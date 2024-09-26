@@ -11,7 +11,6 @@
 **************************************
 
 [rewrite_local]
-[rewrite_local]
 ^https:\/\/api\.sortedapp\.com\/receipts url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Sorted.js
 
 [mitm]
