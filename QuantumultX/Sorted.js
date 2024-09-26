@@ -22,9 +22,7 @@ var Mike = JSON.parse($response.body);
 
 const vip = '/verify';
 
-if ($request.url.indexOf(vip) != -1) {
-    Mike.isPro = true;
-    Mike.receipt = {
+var data = {
     "receipt_type" : "Production",
     "app_item_id" : 1306893526,
     "receipt_creation_date" : "2022-09-21 11:40:33 Etc/GMT",
@@ -46,6 +44,10 @@ if ($request.url.indexOf(vip) != -1) {
     "original_application_version" : "185",
     "download_id" : 83070431858296
   };
+
+if ($request.url.indexOf(vip) != -1) {
+    Mike.isPro = true;
+    Mike.receipt = data;
     body = JSON.stringify(Mike);
 }
 $done({body});
