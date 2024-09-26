@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/ticktick\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/TickTick.js
+https:\/\/ticktick\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/TickTick.js
 
 [mitm]
 hostname = ticktick.com
