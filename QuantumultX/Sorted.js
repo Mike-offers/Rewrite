@@ -16,4 +16,41 @@ hostname = api.sortedapp.com
 
 *************************************/
 
-var Mike=JSON["\u0070\u0061\u0072\u0073\u0065"]($response["\u0062\u006f\u0064\u0079"]);var data={"\u0073\u0074\u0061\u0074\u0075\u0073":0x0,"\u0072\u0065\u0063\u0065\u0069\u0070\u0074":{"\u0072\u0065\u0063\u0065\u0069\u0070\u0074\u005f\u0074\u0079\u0070\u0065":"\u0050\u0072\u006f\u0064\u0075\u0063\u0074\u0069\u006f\u006e","\u0061\u0070\u0070\u005f\u0069\u0074\u0065\u006d\u005f\u0069\u0064":0x4de59cd6,"\u0072\u0065\u0063\u0065\u0069\u0070\u0074\u005f\u0063\u0072\u0065\u0061\u0074\u0069\u006f\u006e\u005f\u0064\u0061\u0074\u0065":'2022-09-21\x2011:40:33\x20Etc/GMT',"\u0062\u0075\u006e\u0064\u006c\u0065\u005f\u0069\u0064":"\u0063\u006f\u006d\u002e\u0073\u0074\u0061\u0079\u0073\u006f\u0072\u0074\u0065\u0064\u002e\u0053\u006f\u0072\u0074\u0065\u0064","\u006f\u0072\u0069\u0067\u0069\u006e\u0061\u006c\u005f\u0070\u0075\u0072\u0063\u0068\u0061\u0073\u0065\u005f\u0064\u0061\u0074\u0065":'2020-08-12\x2000:06:22\x20Etc/GMT',"\u0069\u006e\u005f\u0061\u0070\u0070":[],"\u0061\u0064\u0061\u006d\u005f\u0069\u0064":0x4de59cd6,"\u0072\u0065\u0063\u0065\u0069\u0070\u0074\u005f\u0063\u0072\u0065\u0061\u0074\u0069\u006f\u006e\u005f\u0064\u0061\u0074\u0065\u005f\u0070\u0073\u0074":'2022-09-21\x2004:40:33\x20America/Los_Angeles',"\u0072\u0065\u0071\u0075\u0065\u0073\u0074\u005f\u0064\u0061\u0074\u0065":'2022-09-21\x2011:40:35\x20Etc/GMT','request_date_pst':'2022-09-21\x2004:40:35\x20America/Los_Angeles',"\u0076\u0065\u0072\u0073\u0069\u006f\u006e\u005f\u0065\u0078\u0074\u0065\u0072\u006e\u0061\u006c\u005f\u0069\u0064\u0065\u006e\u0074\u0069\u0066\u0069\u0065\u0072":0x32cb6043,'request_date_ms':'1663760435501',"\u006f\u0072\u0069\u0067\u0069\u006e\u0061\u006c\u005f\u0070\u0075\u0072\u0063\u0068\u0061\u0073\u0065\u005f\u0064\u0061\u0074\u0065\u005f\u0070\u0073\u0074":'2020-08-11\x2017:06:22\x20America/Los_Angeles','application_version':"\u0033\u0035\u0038",'original_purchase_date_ms':"\u0031\u0035\u0039\u0037\u0031\u0039\u0030\u0037\u0038\u0032\u0030\u0030\u0030",'receipt_creation_date_ms':'1663760433000',"\u006f\u0072\u0069\u0067\u0069\u006e\u0061\u006c\u005f\u0061\u0070\u0070\u006c\u0069\u0063\u0061\u0074\u0069\u006f\u006e\u005f\u0076\u0065\u0072\u0073\u0069\u006f\u006e":'185',"\u0064\u006f\u0077\u006e\u006c\u006f\u0061\u0064\u005f\u0069\u0064":0x4b8d57950e78},"\u0069\u0073\u0050\u0072\u006f":!![],'environment':'Production',"\u0066\u006c\u0061\u0067\u0067\u0065\u0064":![],'isBundleEnabled':!![],"\u0069\u0073\u0043\u0075\u0073\u0074\u006f\u006d\u0065\u0072":![]};const vip="yfirev/".split("").reverse().join("");if($request['url']['indexOf'](vip)!=-(0x22a08^0x22a09)){Mike=data;body=JSON['stringify'](Mike);}$done({'body':body});
+
+var Mike = JSON.parse($response.body);
+var data = {
+  "status" : 0,
+  "receipt" : {
+    "receipt_type" : "Production",
+    "app_item_id" : 1306893526,
+    "receipt_creation_date" : "2022-09-21 11:40:33 Etc/GMT",
+    "bundle_id" : "com.staysorted.Sorted",
+    "original_purchase_date" : "2020-08-12 00:06:22 Etc/GMT",
+    "in_app" : [
+
+    ],
+    "adam_id" : 1306893526,
+    "receipt_creation_date_pst" : "2022-09-21 04:40:33 America/Los_Angeles",
+    "request_date" : "2022-09-21 11:40:35 Etc/GMT",
+    "request_date_pst" : "2022-09-21 04:40:35 America/Los_Angeles",
+    "version_external_identifier" : 852189251,
+    "request_date_ms" : "1663760435501",
+    "original_purchase_date_pst" : "2020-08-11 17:06:22 America/Los_Angeles",
+    "application_version" : "358",
+    "original_purchase_date_ms" : "1597190782000",
+    "receipt_creation_date_ms" : "1663760433000",
+    "original_application_version" : "185",
+    "download_id" : 83070431858296
+  },
+  "isPro" : true,
+  "environment" : "Production",
+  "flagged" : false,
+  "isBundleEnabled" : true,
+  "isCustomer" : false
+};  
+const vip = '/verify'; 
+if ($request.url.indexOf(vip) != -1) { 
+    Mike = data; 	
+    body = JSON.stringify(Mike); 
+} 
+$done({body}); 
