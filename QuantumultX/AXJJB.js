@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/.*\.julanling\.com\/(member|splash_screen\/jjb_splash_screen|switch_my\/vip_banner_info) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/AutoCAD.js
+^https?:\/\/.*\.julanling\.com\/(member|splash_screen\/jjb_splash_screen|switch_my\/vip_banner_info) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/AXJJB.js
 
 [mitm]
 hostname = *.julanling.com
