@@ -10,7 +10,7 @@
 
 [rewrite_local]
 ^
-^https?:\/\/www\.xiaoxiongyouhao\.com\/api\/vip\/index.php url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/XXYH.js
+^https?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/XXYH.js
 
 [mitm]
 hostname = www.xiaoxiongyouhao.com
