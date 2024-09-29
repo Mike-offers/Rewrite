@@ -9,8 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^
-^https?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/XXYH.js
+^https?:\/\/www\.xiaoxiongyouhao\.com\/api\/vip\/index.php url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/XXYH.js
 
 [mitm]
 hostname = www.xiaoxiongyouhao.com
