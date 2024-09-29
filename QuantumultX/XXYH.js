@@ -18,6 +18,6 @@ hostname = www.xiaoxiongyouhao.com
 *************************************/
 
 
-var Mike = $response.body.replace(/vip_state":1,'vip_state":2')
-.replace(/membership_days":0,'membership_days":888')
+var Mike = $response.body.replace(/vip_state":1/g,'vip_state":2')
+.replace(/membership_days":0/g,'membership_days":888')
 $done({ Mike });
