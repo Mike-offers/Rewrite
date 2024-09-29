@@ -9,14 +9,13 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/www\.xiaoxiongyouhao\.com\/api\/vip\/index.php url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/XXYH.js
+^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/XXYH.js
 
-[mitm]
+[mitm] 
 hostname = www.xiaoxiongyouhao.com
 
 *************************************/
 
-
-var Mike = $response.Mike.replace(/vip_state":\d/g,'vip_state":2')
+var Mike = $response.body.replace(/vip_state":\d/g,'vip_state":2')
 .replace(/membership_days":\d+/g,'membership_days":888')
 $done({ Mike });
