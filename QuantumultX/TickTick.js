@@ -9,10 +9,11 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-https:\/\/dida365\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/TickTick.js
+# 滴答清单 pro
+^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/TickTick.js
 
 [mitm]
-hostname = dida365.com
+hostname = dida365.com , ticktick.com
 
 *************************************/
 
