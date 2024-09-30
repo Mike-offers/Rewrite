@@ -27,7 +27,7 @@ obj = {
   "teamPro" : true,
   "inboxId" : "inbox1023464027",
   "userId" : "1023464027",
-  "username" : "p3wq1qtb@user.dida365.com",
+  "username" : "Tg@TrollStoreKios",
   "freeTrial" : true,
   "userCode" : "7c6f0430636a48af85d5bd73ca000c63",
   "activeTeamUser" : true,
