@@ -16,13 +16,13 @@ hostname = %APPEND% 111.229.140.167
 
 *************************************/
 
-var body;
+var body = response.body;
 var url = $request.url;
 if (/v1\/vod\/getVod/.test(url)){
-    body = $response.body.replace(/is_free":\w+/g,'is_free":true')
+    body = body.replace(/is_free":\w+/g,'is_free":true')
     .replace(/concurrent":\w+/g,'concurrent":true')
 }
 if (/v1\/user\/getUserInfo/.test(url)) {
-    body = $response.body.replace(/username":".*?"/g,'username":"Tg频道@TrollStoreKios"')
+    body = body.replace(/username":".*?"/g,'username":"Tg频道@TrollStoreKios"')
 }
 $done({ body });
