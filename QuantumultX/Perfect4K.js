@@ -16,15 +16,16 @@ hostname = %APPEND% 111.229.140.167
 
 *************************************/
 
-var body = $response.body;
 var url = $request.url;
 if (/v1\/vod\/getVod/.test(url)){
+    var body = $response.body;
     body = body.replace(/is_free":\w+/g,'is_free":true')
     .replace(/concurrent":\w+/g,'concurrent":true')
+    $done({ body });
 }
 if (/v1\/user\/getUserInfo/.test(url)) {
-    body = JSON.parse(body);
-    body = {
+    var Mike = JSON.parse($response.body);
+    Mike = {
   "code" : 1,
   "data" : {
     "user_points_froze" : 0,
@@ -56,6 +57,7 @@ if (/v1\/user\/getUserInfo/.test(url)) {
   "msg" : "ok",
   "ENCRYPTION" : 0
     }
-   body = JSON.stringify(body);
+   Mike = JSON.stringify(Mike);
+   $done({ Mike });
 }
-$done({ body });
+
