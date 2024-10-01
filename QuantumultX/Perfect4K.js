@@ -56,6 +56,6 @@ if (/v1\/user\/getUserInfo/.test(url)) {
   "msg" : "ok",
   "ENCRYPTION" : 0
     }
+   body = JSON.stringify(body);
 }
-body = JSON.stringify(body);
 $done({ body });
