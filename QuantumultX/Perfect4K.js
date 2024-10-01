@@ -21,4 +21,7 @@ if (/v1\/vod\/getVod/.test(url)){
     body = $response.body.replace(/is_free":\w+/g,'is_free":true')
     .replace(/concurrent":\w+/g,'concurrent":true')
 }
+else {
+    body = $response.body.replace(/username":".*?"/g,'username":"Tg频道@TrollStoreKios"')
+}
 $done({ body });
