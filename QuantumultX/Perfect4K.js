@@ -23,6 +23,7 @@ if (/v1\/vod\/getVod/.test(url)){
     .replace(/concurrent":\w+/g,'concurrent":true')
 }
 if (/v1\/user\/getUserInfo/.test(url)) {
-    body = body.replace(/username":".*?"/g,'username":"Tg频道@TrollStoreKios"')
+    body = body.replace(/user_name":".*?"/g,'user_name":"Tg频道@TrollStoreKios"')
+    .replace(/group_name":".*?"/g,'group_name":"永久会员"')
 }
 $done({ body });
