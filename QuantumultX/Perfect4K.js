@@ -57,4 +57,5 @@ if (/v1\/user\/getUserInfo/.test(url)) {
   "ENCRYPTION" : 0
     }
 }
+body = JSON.stringify(body);
 $done({ body });
