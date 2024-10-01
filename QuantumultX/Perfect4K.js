@@ -17,6 +17,7 @@ hostname = %APPEND% 111.229.140.167
 *************************************/
 
 var body;
+var url = $request.url;
 if (/v1\/vod\/getVod/.test(url)){
     body = $response.body.replace(/is_free":\w+/g,'is_free":true')
     .replace(/concurrent":\w+/g,'concurrent":true')
