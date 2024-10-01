@@ -16,48 +16,14 @@ hostname = %APPEND% 111.229.140.167
 
 *************************************/
 
+var body = $response.body;
 var url = $request.url;
 if (/v1\/vod\/getVod/.test(url)){
-    var body = $response.body;
     body = body.replace(/is_free":\w+/g,'is_free":true')
     .replace(/concurrent":\w+/g,'concurrent":true')
-    $done({ body });
 }
 if (/v1\/user\/getUserInfo/.test(url)) {
-    var Mike = JSON.parse($response.body);
-    Mike = {
-  "code" : 1,
-  "data" : {
-    "user_points_froze" : 0,
-    "user_last_login_time" : 1727754747,
-    "user_portrait" : "",
-    "user_email" : "",
-    "user_end_time" : 0,
-    "user_question" : "",
-    "user_id" : 1280,
-    "group_id" : 2,
-    "gbook_num" : 0,
-    "user_reg_time" : 1727234749,
-    "user_last_login_ip" : "128.20.121.27",
-    "group" : {
-      "group_name" : "永久会员",
-      "group_status" : 1,
-      "group_id" : 2
-    },
-    "user_login_num" : 3,
-    "promotion_next_desc" : "没有更多的奖励啦！",
-    "user_points" : 0,
-    "user_status" : 1,
-    "user_answer" : "",
-    "user_nick_name" : "",
-    "promotion_num" : 0,
-    "barrage_num" : 0,
-    "user_name" : "Tg频道@TrollStoreKios"
-  },
-  "msg" : "ok",
-  "ENCRYPTION" : 0
-    }
-   body = JSON.stringify(Mike);
-   $done({ body });
+    body = body.replace(/user_name":".*?"/g,'user_name":"Tg频道@TrollStoreKios"')
+    .replace(/group_name":"普通会员"/g,'group_name":"永久会员"')
 }
-
+$done({ body });
