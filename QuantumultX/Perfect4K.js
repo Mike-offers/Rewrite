@@ -9,14 +9,14 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/111\.229\.140\.167\:8762\/apptov5\/v1(\/vod\/getVod||\/user\/getUserInfo) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Perfect4K.js
+^https?:\/\/111\.229\.140\.167\:8762\/apptov5\/v1\/(vod\/getVod||user\/getUserInfo) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Perfect4K.js
 
 [mitm]
 hostname = %APPEND% 111.229.140.167
 
 *************************************/
-
-var body = $response.body.replace(/is_free":\w+/g,'is_free":true')
-.replace(/concurrent":\w+/g,'concurrent":true')
-
+if (/v1\/vod\/getVod/.test(url)){
+    var body = $response.body.replace(/is_free":\w+/g,'is_free":true')
+    .replace(/concurrent":\w+/g,'concurrent":true')
+}
 $done({ body });
