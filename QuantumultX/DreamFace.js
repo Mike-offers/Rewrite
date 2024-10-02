@@ -28,5 +28,5 @@ var Data = {
       "expires_date_format" : "2099-09-09 00:00:00.000",
       "vip_product_id" : "96"
     },
-Mike["data"]["rights"] = Data
+Mike["data"]["rights"] = Data;
 $done({body : JSON.stringify(Mike)});
