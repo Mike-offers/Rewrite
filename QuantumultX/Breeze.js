@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/sso\.basenjiapps\.com\/api\/v2\/users\/subscriptions\/* url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/AXJJB.js
+^https?:\/\/sso\.basenjiapps\.com\/api\/v2\/users\/subscriptions\/* url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Breeze.js
 
 [mitm]
 hostname = sso.basenjiapps.com
