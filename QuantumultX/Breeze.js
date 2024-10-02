@@ -15,3 +15,7 @@
 hostname = sso.basenjiapps.com
 
 *************************************/
+
+var Mike = JSON.parse($response.body);
+Mike = {"subscription_status":"active","end_trial_date":"4102444800","end_subscription_date":"4102444800","subscribed":true}
+$done({body}); 
