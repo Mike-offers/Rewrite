@@ -21,7 +21,7 @@ var vipInfo = {
   "vip_ex_date" : 32503338000,
   "vip_type" : "13"
 };
-Mike.user_info.nickname = "Tg频道@TrollStoreKios";
+Mike.user_info.nickname = "Tg@TrollStoreKios";
 Mike.user_info.avatar = "https://star7-1301731293.cos.ap-shanghai.myqcloud.com/user_avatar/1721058054.416775.png";
 Mike.user_info.permission_vip_info = [vipInfo];
 Mike.permission_vip_info = [vipInfo];
