@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/101\.34\.60\.156\:6543\/sk-api\/(vod\/one|user\/get_user_info) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/MB4K.js
+http:\/\/101\.34\.60\.156\:6543\/sk-api\/(vod\/one|user\/get_user_info) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/MB4K.js
 
 [mitm]
 hostname = %APPEND% 101.34.60.156
