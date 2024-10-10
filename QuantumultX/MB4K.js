@@ -15,9 +15,16 @@ http:\/\/101\.34\.60\.156\:6543\/sk-api\/(vod\/one|user\/get_user_info) url scri
 hostname = %APPEND% 101.34.60.156
 
 *************************************/
-
-var body = $response.body.replace(/vod_trysee":\d/g,'vod_trysee":1')
+var body = $response.body;
+var url = $request.url;
+if(/sk-api\/vod\/one/.test(url)){
+body = body.replace(/vod_trysee":\d/g,'vod_trysee":1')
 .replace(/vod_level":\d/g,'vod_level":1')
 .replace(/vod_lock":\d/g,'vod_lock":1')
 .replace(/vod_time_make":\d+/g,'vod_time_make":999999')
-$done({ body });
+}
+if(/sk-api\/user\/get_user_info/.test(url)){
+body = body.replace(/user_nickname":\w+/g,'user_nickname":"Tg@TrollStoreKios"')
+.replace(/user_points":\d+/g,'user_points":999999')
+}
+$done({"body": body});
