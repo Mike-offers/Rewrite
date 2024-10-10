@@ -15,3 +15,9 @@
 hostname = %APPEND% 101.34.60.156
 
 *************************************/
+
+var body = $response.body.replace(/vod_trysee":\d/g,'vod_trysee":1')
+.replace(/vod_level":\d/g,'vod_level":1')
+.replace(/vod_lock":\d/g,'vod_lock":0')
+.replace(/vod_time_make":\d+/g,'vod_time_make":999999')
+$done({ body });
