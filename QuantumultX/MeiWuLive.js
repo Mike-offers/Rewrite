@@ -15,3 +15,9 @@
 hostname = qq.baiduan*.com , *wensan*com , ws.wensangq.com , 45.117.11.*
 
 *************************************/
+
+var Mike = JSON.parse($response.body);
+
+Mike.[nickname] = "Tg@TrollStoreKios";
+Mike.[vip] = 1;
+Mike.[status] = 1;
