@@ -20,8 +20,8 @@ hostname = tcbff.xiaoguaijizhang.cn
 
 var hyy = JSON.parse($response.body);
 const Hyy666 = typeof $task !== "undefined";
-hyy["vip"] = 3;
-hyy["isVip"] = true;
-hyy["membership_type"] = 3;
+hyy["data"]["vip"] = 3;
+hyy["data"]["isVip"] = true;
+hyy["data"]["membership_type"] = 3;
 
 $done({status: Hyy666 ? "HTTP/1.1 200 OK" : 200, body: JSON.stringify(hyy)});
