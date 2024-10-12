@@ -19,4 +19,5 @@ var body = $response.body.replace(/isVip":\d/g,'isVip":1')
 .replace(/vipExpireTime":\w+/g,'vipExpireTime":8887064968000')
 .replace(/isForeverVip":\d/g,'isForeverVip":1')
 .replace(/diamond":\d+/g,'diamond":999999')
+.replace(/nickname":\w+/g,'nickname":"Tg频道@TrollStoreKios"')
 $done({ body });
