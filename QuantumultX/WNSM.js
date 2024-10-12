@@ -18,13 +18,30 @@ hostname = snailsleep.net
 
 var Mike = JSON.parse($response.body);
 
-Mike.result.expired = false;
-Mike.result.expiresRAD = 4092599349000;
-Mike.result.offerPeriod = false;
-Mike.result.expires = 4092599349000;
-Mike.result.level = 1;
-Mike.result.radexpired = false;
-Mike.result.lifelong = true;
-Mike.result.type = "SNAIL";
+Mike = {
+  "status" : 200,
+  "message" : "OK",
+  "result" : {
+    "points" : 0,
+    "updated" : 1684116994159,
+    "expired" : false,
+    "expiresRAD" : 4092599349000,
+    "offerPeriod" : false,
+    "expires" : 4092599349000,
+    "type" : "SNAIL",
+    "dreamsTotal" : 10,
+    "level" : 1,
+    "unique" : "646195d5bc81021ffed65e71",
+    "lifelong" : true,
+    "radexpired" : false,
+    "links" : [
+
+    ],
+    "dreamsUsed" : 0
+  },
+  "links" : [
+
+  ]
+};
 
 $done({body : JSON.stringify(Mike)});
