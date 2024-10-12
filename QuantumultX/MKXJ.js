@@ -1,28 +1,20 @@
-/*******************************
+/*************************************
 
-脚本功能：玛卡相机——解锁VIP
-下载地址：https://is.gd/BCvekf
-软件版本：1.6.3
-脚本作者：彭于晏💞
-更新时间：2024-10—8
-问题反馈：QQ+89996462
-QQ会员群：779392027💞
-TG反馈群：https://t.me/plus8889
-TG频道群：https://t.me/py996
-使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
-
-*******************************
+>「 脚本名称 」         玛卡相机解锁Vip
+>「 脚本作者 」         M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
+>「 电报频道 」         https://t.me/TrollStoreKios 
+>「 更新时间 」         2024-09-26
+>「 注意事项 」         如需引用请注明出处，谢谢合作！
+>「 注意事项 」         使用此脚本，会导致AppleStore无法切换账户，解决方法[关闭QX切换账户，或关闭MITM，或删除脚本，或去设置媒体与购买项目处切换ID]
+>「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
+^https?:\/\/.+xdplt.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/MKXJ.js
 
-^http[s]?:\/\/ai-pic.xdplt.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xdplt.js
+[mitm]
+hostname = *xdplt.com
 
-[mitm] 
-
-hostname = ai-pic.xdplt.com
-
-*******************************/
-
+*************************************/
 var body = $response.body.replace(/isVip":\d/g,'isVip":1')
 .replace(/vipExpireTime":\w+/g,'vipExpireTime":8887064968000')
 .replace(/isForeverVip":\d/g,'isForeverVip":1')
