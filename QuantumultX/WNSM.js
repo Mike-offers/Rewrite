@@ -18,12 +18,12 @@ hostname = snailsleep.net
 
 var Mike = JSON.parse($response.body);
 
-Mike['result']['expired'] = false;
-Mike['result']['expiresRAD'] = 4092599349000;
-Mike['result']['offerPeriod'] = false;
-Mike['result']['expires'] = 4092599349000;
-Mike["result"]["level"] = 1;
-Mike['result']['radexpired'] = false;
-Mike['result']['lifelong'] = true;
+Mike.result.expired = false;
+Mike.result.expiresRAD = 4092599349000;
+Mikeresult.offerPeriod = false;
+Mike.result.expires = 4092599349000;
+Mike.result.level = 1;
+Mike.result.radexpired = false;
+Mike.result.lifelong = true;
 
 $done({body : JSON.stringify(Mike)});
