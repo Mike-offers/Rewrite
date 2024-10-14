@@ -12,7 +12,7 @@
 ^https?:\/\/pc7dong.com\/seveng\/\/api\/user\/getUserById.v1? url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/QD.js
 
 [mitm]
-hostname = api.alohaprofile.com
+hostname = pc7dong.com
 
 *************************************/
 
