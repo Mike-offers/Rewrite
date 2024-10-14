@@ -19,7 +19,7 @@ hostname = api.jycds.cn
 var Mike = JSON.parse($response.body);
 var url = $request.url;
 if(/app-api\/v1\/skitsLists\/frontCheck\?fileName/.test(url)){
-  Mike.data.onOroff = 1;
+  Mike.data.onOrOff = 1;
 }
   
 if(/login\/detail/.test(url)){
