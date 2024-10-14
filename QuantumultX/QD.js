@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/pc7dong.com\/seveng\/\/api\/user\/getUserById.v1? url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/QD.js
+^https?:\/\/pc7dong.com\/seveng.+api\/ url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/QD.js
 
 [mitm]
 hostname = pc7dong.com
