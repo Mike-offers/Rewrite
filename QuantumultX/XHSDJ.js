@@ -16,7 +16,36 @@ hostname = api.jycds.cn
 
 *************************************/
 
-var body = $response.body;
+var Mike = JSON.parse($response.body);
 var url = $request.url;
-if(/app-api\/v1\/skitsLists\/frontCheck\?fileName/.test(url))
-if(/login\/detail/.test(url))
+if(/app-api\/v1\/skitsLists\/frontCheck\?fileName/.test(url)){
+  Mike.data.onOroff = 1;
+}
+  
+if(/login\/detail/.test(url)){
+  Mike = {
+  "msg" : "",
+  "data" : {
+    "vipEndTime" : null,
+    "vip" : 1,
+    "loginName" : "https://t.me/GieGie777",
+    "taskBear" : 0,
+    "youngType" : 0,
+    "nick" : "https://t.me/GieGie777",
+    "pic" : "https://zdimg.lifeweek.com.cn/app/20230410/16810960185662892.jpg",
+    "diamonds" : 999880,
+    "userId" : 49068,
+    "type" : 7,
+    "totalBear" : null,
+    "vipText" : "2999-09-09会员到期",
+    "passwordType" : 0,
+    "watchVip" : 1,
+    "litterBear" : 0,
+    "unlockSingleEpisode" : 0,
+    "videoBear" : 0
+  },
+  "code" : 0
+  }
+}
+
+$done({ body: JSON.stringify(Mike) });
