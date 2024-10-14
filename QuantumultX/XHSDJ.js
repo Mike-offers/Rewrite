@@ -15,3 +15,8 @@
 hostname = api.jycds.cn
 
 *************************************/
+
+var body = $response.body;
+var url = $request.url;
+if(/app-api\/v1\/skitsLists\/frontCheck\?fileName/.test(url))
+if(/login\/detail/.test(url))
