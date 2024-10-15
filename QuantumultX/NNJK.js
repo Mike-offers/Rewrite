@@ -26,4 +26,4 @@ Mike.data.experience_vip_end_time = 32493834549000;
 Mike.data.is_permanent = 1;
 Mike.data.vip_type = 1;
 
-$done({JSON.stringify(Mike); }); 
+$done({JSON.stringify(Mike) }); 
