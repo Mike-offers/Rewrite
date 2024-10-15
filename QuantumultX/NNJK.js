@@ -16,14 +16,13 @@ hostname = nanie.flyingeffect.com
 
 *************************************/
 
-var Mike = JSON.parse($response.body);
-
-Mike.data.vip_end_time = "2099-09-09 09:09:09"; 
-Mike.data.is_experience_vip = false;
-Mike.data.is_vip = true;
-Mike.data.nickname = "Tg频道@TrollStoreKios";
-Mike.data.experience_vip_end_time = 32493834549000;
-Mike.data.is_permanent_vip = 1;
-Mike.data.vip_type = 1;
+body = $response.body.replace(/vip_end_time":".*?"/g,'vip_end_time":"2099-08-16 09:13:47"')
+.replace(/is_permanent_vip":\d/g,'is_permanent_vip":1')
+.replace(/vip_type":\d/g,'vip_type":1')
+.replace(/is_vip":\w+/g,'is_vip":true')
+.replace(/is_experience_vip":\w+/g,'is_experience_vip":true')
+.replace(/nickname":".*?"/g,'nickname":"Tg频道@TrollStoreKios"')
+.replace(/avatar":".*?"/g,'avatar":"https://star7-1301731293.cos.ap-shanghai.myqcloud.com/user_avatar/1721058054.416775.png"')
+$done({ body });
 
 $done({JSON.stringify(Mike) }); 
