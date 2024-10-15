@@ -24,5 +24,3 @@ var body = $response.body.replace(/vip_end_time":".*?"/g,'vip_end_time":"2099-08
 .replace(/nickname":".*?"/g,'nickname":"Tg频道@TrollStoreKios"')
 .replace(/avatar":".*?"/g,'avatar":"https://star7-1301731293.cos.ap-shanghai.myqcloud.com/user_avatar/1721058054.416775.png"')
 $done({ body });
-
-$done({JSON.stringify(Mike) }); 
