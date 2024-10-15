@@ -16,7 +16,7 @@ hostname = nanie.flyingeffect.com
 
 *************************************/
 
-body = $response.body.replace(/vip_end_time":".*?"/g,'vip_end_time":"2099-08-16 09:13:47"')
+var body = $response.body.replace(/vip_end_time":".*?"/g,'vip_end_time":"2099-08-16 09:13:47"')
 .replace(/is_permanent_vip":\d/g,'is_permanent_vip":1')
 .replace(/vip_type":\d/g,'vip_type":1')
 .replace(/is_vip":\w+/g,'is_vip":true')
