@@ -23,7 +23,7 @@ Mike.data.is_experience_vip = false;
 Mike.data.is_vip = true;
 Mike.data.nickname = "Tg频道@TrollStoreKios";
 Mike.data.experience_vip_end_time = 32493834549000;
-Mike.data.is_permanent = 1;
+Mike.data.is_permanent_vip = 1;
 Mike.data.vip_type = 1;
 
 $done({JSON.stringify(Mike) }); 
