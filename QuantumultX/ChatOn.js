@@ -16,3 +16,17 @@ hostname = billing.chaton.ai
 
 *************************************/
 
+var Mike = JSON.parse($response.body);
+Mike = {
+    "subscriptions": [
+      {
+        "id": "696969696969696969",
+        "provider": "apple",
+        "status": "active",
+        "periodEnd": 4102444800,
+        "createdAt": 1728922317
+      }
+    ]
+}; 	
+ 
+$done({JSON.stringify(Mike)}); 
