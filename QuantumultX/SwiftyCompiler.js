@@ -1,6 +1,6 @@
 ﻿/*************************************
 
->「 脚本名称 」         Swiftly Compiler解锁Premium
+>「 脚本名称 」         Swifty Compiler解锁Premium
 >「 脚本作者 」         M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
 >「 电报频道 」         https://t.me/TrollStoreKios 
 >「 更新时间 」         2024-10-07
@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/api\.qonversion\.io\/v1\/user\/(init|purchase)$ ur url script-request-header https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/SwiftyCompiler.js
+^https?:\/\/api\.qonversion\.io\/v1\/user\/(init|purchase)$ url script-request-header https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/SwiftyCompiler.js
 
 [mitm]
 hostname = api.qonversion.io
