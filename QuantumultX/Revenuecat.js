@@ -11,8 +11,8 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/(api\.revenuecat|isi\.csan\.goodnotes)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js
-^https:\/\/(api\.revenuecat|isi\.csan\.goodnotes)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js
+^https:\/\/(api\.revenuecat|isi\.csan\.goodnotes)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Revenuecat.js
+^https:\/\/(api\.revenuecat|isi\.csan\.goodnotes)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Revenuecat.js
 
 [mitm]
 hostname = api.revenuecat.com , isi.csan.goodnotes.com
@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Phocus': { name: 'phocus_ai', id: 'com.ahmetserdarkaradeniz.phocusailife', cm: 'sjb' },  //Phocus
   'Wozi': { name: 'wozi_pro_2023', id: 'wozi_pro_2023', cm: 'sjb' },  //Wozi
   'Chatme': { name: 'premium', id: 'chatme_premium_year_discount', cm: 'sja' },  //ChatMe
   'ChatLLM': { name: 'Pro', id: 'com.curiouscreatorsco.ChatLLM.pro.lifetime.notrial.150_00', cm: 'sjb' },  //AItText
