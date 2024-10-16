@@ -62,7 +62,7 @@ for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapp
 }
 
 
-//$notification.post("Success" + productIdentifier  );
+$notification.post("Success" + productIdentifier + entitlements);
 
 body = JSON.stringify(jsonToUpdate);
 $done({body:body});
