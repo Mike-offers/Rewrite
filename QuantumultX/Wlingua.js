@@ -28,4 +28,4 @@ Mike.config.vocExType.flashcard = true;
 Mike.subscription.premiumEndTime = 4092599349;
 Mike.premiumEndTime = 4092599349;
 
-$done({JSON.stringify(Mike)});
+$done({body:JSON.stringify(Mike)});
