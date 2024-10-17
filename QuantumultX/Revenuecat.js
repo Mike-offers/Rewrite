@@ -50,7 +50,6 @@ const list = {
   'TaskFlow': { name: 'plus', id: 'tf_plus_2499_lifetime', cm: 'sja' },  //TaskFlow
   'Goal%20Map': { name: 'pro', id: 'com.happydogteam.relax.lifetimePro', cm: 'sjb' },  //目标地图
   'Phocus': { name: 'phocus_ai', id: 'com.ahmetserdarkaradeniz.phocusailife', cm: 'sjb' },  //Phocus
-  'Wozi': { name: 'wozi_pro_2023', id: 'wozi_pro_2023', cm: 'sjb' },  //Wozi
   'Chatme': { name: 'premium', id: 'chatme_premium_year_discount', cm: 'sja' },  //ChatMe
   'ChatLLM': { name: 'Pro', id: 'com.curiouscreatorsco.ChatLLM.pro.lifetime.notrial.150_00', cm: 'sjb' },  //AItText
   'Binsoo': { name: 'vibe', id: 'annual', cm: 'sja' },  //Binsoo-照片滤镜/编辑
