@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Leaf%20VPN': { name: 'LeafPremium', id: 'com.kitslabs.production.Leaf.premium.monthlySub', cm: 'sja' },  //Leaf VPN
   'Unfold': { name: ["BESTDRESSED1_STORY",
         "BIRTHDAY1_STORY",
         "CS1_AN_STORY",
