@@ -242,7 +242,7 @@ const list = {
   'WidgetBox': { cm: 'timeb', hx: 'hxpda', id: "widgetlab001", latest: "chxm1023" },  //小组件盒子
   'LifeTracker': { cm: 'timea', hx: 'hxpda', id: "com.dk.lifetracker.yearplan", latest: "chxm1023" },  //Becord生活记录
   'imgplay': { cm: 'timea', hx: 'hxpda', id: "me.imgbase.imgplay.subscriptionYearly", latest: "chxm1023" },  //imgPlay
-  'WaterMinder': { cm: 'timea', hx: 'hxpda', id: "waterminder.premiumYearly", latest: "chxm1023" },  //WaterMinder喝水APP
+  'WaterMinder': { cm: 'timea', hx: 'hxpda', id: "waterminder.premiumOnetime", latest: "chxm1023" },  //WaterMinder喝水APP
   'HashPhotos': { cm: 'timeb', hx: 'hxpda', id: "com.kobaltlab.HashPhotos.iap.allinone.free", latest: "chxm1023" },  //HashPhotos
   'FileBrowser': { cm: 'timea', hx: 'hxpda', id: "com.qingcheng.filex.pro.yearly", latest: "chxm1023" },  //松鼠下载
   'SilProject': { cm: 'timea', hx: 'hxpda', id: "com.sm.Alina.Pro", latest: "chxm1023" },  //Alina米克锁屏—
