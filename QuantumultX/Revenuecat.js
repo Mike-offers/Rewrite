@@ -46,7 +46,8 @@ const bundle = {
 }
 
 //识别UA
-const list = {
+const list = {  
+  'ChatBot': { name: 'chatbot_annual', id: 'chatbot_annual', cm: 'sja' },  //ChatBot-AIChat
   'AI%20Chat': { name: 'AI Plus', id: 'ai_plus_gpt_yearly', cm: 'sjb' },  //AI Chat - Assistant & Chatbot
   'Budget%20Flow': { name: 'full_access', id: 'com.fabian.hasse.haushaltsbuch.upgrade.combined', cm: 'sjb' },  //Budget Flow
   'Leaf%20VPN': { name: 'LeafPremium', id: 'com.kitslabs.production.Leaf.premium.monthlySub', cm: 'sja' },  //Leaf VPN
