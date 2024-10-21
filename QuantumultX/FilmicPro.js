@@ -9,10 +9,10 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https:\/\/filmicpro\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX//FilmicPro.js
+^https:\/\/filmicpro\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/FilmicPro.js
 
 [mitm]
-hostname = filmicpro.oracle.bendingspoonsapps.com.
+hostname = filmicpro.oracle.bendingspoonsapps.com
 
 *************************************/
 
