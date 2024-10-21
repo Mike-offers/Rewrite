@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {  
+  'Infltr': { name: 'com.Yooshr.infltr.everythingForever', id: 'com.Yooshr.infltr.subscriptionPremium', cm: 'sja' },  //樱飞-无限滤镜
   'ChatBot': { name: 'chatbot_annual', id: 'chatbot_annual', cm: 'sja' },  //ChatBot-AIChat
   'AI%20Chat': { name: 'AI Plus', id: 'ai_plus_gpt_yearly', cm: 'sjb' },  //AI Chat - Assistant & Chatbot
   'Budget%20Flow': { name: 'full_access', id: 'com.fabian.hasse.haushaltsbuch.upgrade.combined', cm: 'sjb' },  //Budget Flow
