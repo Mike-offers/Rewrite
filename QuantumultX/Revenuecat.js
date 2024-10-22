@@ -34,7 +34,7 @@ if (forbiddenAppFound) {
 }
 
 //识别bundle_id
-const bundle = {  
+const bundle = {
   'tech.miidii.MDClock': { name: 'Entitlement.Pro', id: 'tech.miidii.MDClock.pro', cm: 'sjb' },  //谜底时钟
   'com.voicedream.Voic': { name: 'standard', id: 'vd_annual_79_3daytrial', cm: 'sja' },  //声之梦
   'com.laser-focused.focus-ios': { name: 'subscribed', id: 'iap.io.masterbuilders.focus.pro_one_year', cm: 'sja' },  //Focus-专注时间管理
@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {  
+  'GigaBody': { name: 'Pro', id: 'GigaBodySubscriptionYear_v1', cm: 'sjb' },  //GigaBody
   'AmazingWidget': { name: 'pro', id: 'moyo_subcription_yearly', cm: 'sjb' },  //Moyo小组件
   'Infltr': { name: 'com.Yooshr.infltr.everythingForever', id: 'com.Yooshr.infltr.subscriptionPremium', cm: 'sja' },  //樱飞-无限滤镜
   'ChatBot': { name: 'chatbot_annual', id: 'chatbot_annual', cm: 'sja' },  //ChatBot-AIChat
