@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {  
+  'AmazingWidget': { name: 'pro', id: 'moyo_subcription_yearly', cm: 'sjb' },  //Moyo小组件
   'Infltr': { name: 'com.Yooshr.infltr.everythingForever', id: 'com.Yooshr.infltr.subscriptionPremium', cm: 'sja' },  //樱飞-无限滤镜
   'ChatBot': { name: 'chatbot_annual', id: 'chatbot_annual', cm: 'sja' },  //ChatBot-AIChat
   'AI%20Chat': { name: 'AI Plus', id: 'ai_plus_gpt_yearly', cm: 'sjb' },  //AI Chat - Assistant & Chatbot
