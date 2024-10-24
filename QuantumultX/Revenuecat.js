@@ -46,9 +46,10 @@ const bundle = {
 }
 
 //识别UA
-const list = {  
+const list = {
+  'Authenticator': { name: 'premium', id: '2fa_standalone_lifetime', cm: 'sja' },  //Authenticator-密码管理
   'GigaBody': { name: 'Pro', id: 'GigaBodySubscriptionYear_v1', cm: 'sjb' },  //GigaBody
-  'AmazingWidget': { name: 'pro', id: 'moyo_subcription_yearly', cm: 'sjb' },  //Moyo小组件
+  'AmazingWidget': { name: 'pro', id: 'moyo_subcription_yearly', cm: 'sjb' },  //MoYo小组件
   'Infltr': { name: 'com.Yooshr.infltr.everythingForever', id: 'com.Yooshr.infltr.subscriptionPremium', cm: 'sja' },  //樱飞-无限滤镜
   'ChatBot': { name: 'chatbot_annual', id: 'chatbot_annual', cm: 'sja' },  //ChatBot-AIChat
   'AI%20Chat': { name: 'AI Plus', id: 'ai_plus_gpt_yearly', cm: 'sjb' },  //AI Chat - Assistant & Chatbot
