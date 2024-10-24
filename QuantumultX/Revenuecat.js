@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Voices%20AI': { name: 'voice_cloning', id: 'voice_cloning_annual', cm: 'sjb' },  //Voices AI-人工智能声音
   'Authenticator': { name: 'premium', id: '2fa_standalone_lifetime', cm: 'sja' },  //Authenticator-密码管理
   'GigaBody': { name: 'Pro', id: 'GigaBodySubscriptionYear_v1', cm: 'sjb' },  //GigaBody
   'AmazingWidget': { name: 'pro', id: 'moyo_subcription_yearly', cm: 'sjb' },  //MoYo小组件
