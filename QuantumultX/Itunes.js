@@ -32,6 +32,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.pollykann.app': { cm: 'timea', hx: 'hxpda', id: "com.vimosoft.EVERYTHING", latest: "chxm1023" },  //VLLO
   'com.pollykann.app': { cm: 'timeb', hx: 'hxpda', id: "vip.forever.pollykann", latest: "chxm1023" },  //小鹦看看
   'co.vulcanlabs': { cm: 'timeb', hx: 'hxpda', id: "lifetimeid", latest: "chxm1023" },  //vulcanlabs合集
   'com.eleven.chatgpt': { cm: 'timea', hx: 'hxpda', id: "com.chatgpt.yearly", latest: "chxm1023" },  //ChatAI
