@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  "BearMoneyManager": { name: 'premium', id: 'com.happy.money.forever', cm: 'sjb' },  // 小熊记账
   'Translate%20-%20Talk%20Translator': { name: 'Premium', id: 'premiumAnnually', cm: 'sja' },  // AITranslator-翻译器
   'Task%20Flow': { name: 'plus', id: 'tf_plus_1999_lifetime', cm: 'sja' },  //Task Flow
   'Voices%20AI': { name: 'voice_cloning', id: 'voice_cloning_annual', cm: 'sjb' },  //Voices AI-人工智能声音
