@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Video%20Up': { name: 'Full_access_app', id: 'app.videoup.videoup.na.oneplan.one_year', cm: 'sja' },  // Video Up！
   "BearMoneyManager": { name: 'premium', id: 'com.happy.money.forever', cm: 'sjb' },  // 小熊记账
   'Translate%20-%20Talk%20Translator': { name: 'Premium', id: 'premiumAnnually', cm: 'sja' },  // AITranslator-翻译器
   'Task%20Flow': { name: 'plus', id: 'tf_plus_1999_lifetime', cm: 'sja' },  //Task Flow
