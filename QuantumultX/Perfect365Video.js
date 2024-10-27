@@ -1,6 +1,6 @@
 ﻿﻿/*************************************
 
->「 脚本名称 」         Perfect365Video解锁Plus
+>「 脚本名称 」         Perfect365 Video解锁Plus
 >「 脚本作者 」         M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
 >「 电报频道 」         https://t.me/TrollStoreKios 
 >「 更新时间 」         2024-10-14
