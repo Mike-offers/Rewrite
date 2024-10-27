@@ -47,10 +47,11 @@ const bundle = {
 
 //识别UA
 const list = {
+  'PicLoom': { name: 'com.efsoft.picloom_nc_lifetime', id: 'com.efsoft.picloom_nc_lifetime', cm: 'sjb' },  //PicLoom
   'Treering': { name: 'Pro', id: 'Treering.pro.yearly1', cm: 'sja' },  // 年轮时间统计
-  'Video%20Up': { name: 'Full_access_app', id: 'app.videoup.videoup.na.oneplan.one_year', cm: 'sja' },  // Video Up！
+  'Video%20Up': { name: 'Full_access_app', id: 'app.videoup.videoup.na.oneplan.one_year', cm: 'sja' },  //Video Up！
   "BearMoneyManager": { name: 'premium', id: 'com.happy.money.forever', cm: 'sjb' },  // 小熊记账
-  'Translate%20-%20Talk%20Translator': { name: 'Premium', id: 'premiumAnnually', cm: 'sja' },  // AITranslator-翻译器
+  'Translate%20-%20Talk%20Translator': { name: 'Premium', id: 'premiumAnnually', cm: 'sja' },  //AITranslator-翻译器
   'Task%20Flow': { name: 'plus', id: 'tf_plus_1999_lifetime', cm: 'sja' },  //Task Flow
   'Voices%20AI': { name: 'voice_cloning', id: 'voice_cloning_annual', cm: 'sjb' },  //Voices AI-人工智能声音
   'Authenticator': { name: 'premium', id: '2fa_standalone_lifetime', cm: 'sja' },  //Authenticator-密码管理
@@ -112,7 +113,6 @@ const list = {
         "TUTORIAL1_POST",
         "TUTORIAL1_STORY",
         "ZD1_STORY"], id: 'UNFOLD_PRO_YEARLY', cm: 'sja' },  //Unfold
-  'TaskFlow': { name: 'plus', id: 'tf_plus_2499_lifetime', cm: 'sja' },  //TaskFlow
   'Goal%20Map': { name: 'pro', id: 'com.happydogteam.relax.lifetimePro', cm: 'sjb' },  //目标地图
   'Phocus': { name: 'phocus_ai', id: 'com.ahmetserdarkaradeniz.phocusailife', cm: 'sjb' },  //Phocus
   'Chatme': { name: 'premium', id: 'chatme_premium_year_discount', cm: 'sja' },  //ChatMe
