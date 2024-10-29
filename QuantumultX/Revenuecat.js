@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'djay': { name: 'pro', id: 'com.algoriddim.djay_iphone_free.pro.yearly', cm: 'sja' },  //djay
   'Vocab%20AI': { name: 'AI Pro', id: 'vocabAI_900_1m', cm: 'sja' },  //坚果单词
   'PicLoom': { name: 'com.efsoft.picloom_nc_lifetime', id: 'com.efsoft.picloom_nc_lifetime', cm: 'sjb' },  //PicLoom
   'Treering': { name: 'Pro', id: 'Treering.pro.yearly1', cm: 'sja' },  // 年轮时间统计
