@@ -47,6 +47,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Forward': { name: 'pro', id: 'forward.vip.peryear', cm: 'sjb' },  //Forward-新视界
   'djay': { name: 'pro', id: 'com.algoriddim.djay_iphone_free.pro.yearly', cm: 'sja' },  //djay
   'Vocab%20AI': { name: 'AI Pro', id: 'vocabAI_900_1m', cm: 'sja' },  //坚果单词
   'PicLoom': { name: 'com.efsoft.picloom_nc_lifetime', id: 'com.efsoft.picloom_nc_lifetime', cm: 'sjb' },  //PicLoom
