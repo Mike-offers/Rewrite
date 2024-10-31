@@ -32,6 +32,9 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.byteapp.tubepod': { cm: 'timea', hx: 'hxpda', id: "com.byteapp.tubepod.year", latest: "chxm1023" },  //tubepod
+  'com.youthpe.retake': { cm: 'timeb', hx: 'hxpda', id: "retake_unlock_forever", latest: "chxm1023" },  //Retake
+  'com.ai.face.play': { cm: 'timea', hx: 'hxpda', id: "fp_yearly_20240326", latest: "chxm1023" },  //FacePlay
   'com.bravolol.bravoLang.chineseDictionary': { cm: 'timea', hx: 'hxpda', id: "com.bravolol.bravoLang.chineseDictionary.removeAds", latest: "chxm1023" },  //Dictionary & Translator
   'VLLO': { cm: 'timea', hx: 'hxpda', id: "com.vimosoft.EVERYTHING", latest: "chxm1023" },  //VLLO
   'com.pollykann.app': { cm: 'timeb', hx: 'hxpda', id: "vip.forever.pollykann", latest: "chxm1023" },  //小鹦看看
