@@ -32,6 +32,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.auroroamob.org.GamePlayAICamera': { cm: 'timeb', hx: 'hxpda', id: "makacamera_permanent", latest: "chxm1023" },  //玛卡相机
   'com.byteapp.tubepod': { cm: 'timea', hx: 'hxpda', id: "com.byteapp.tubepod.year", latest: "chxm1023" },  //tubepod
   'com.youthpe.retake': { cm: 'timeb', hx: 'hxpda', id: "retake_unlock_forever", latest: "chxm1023" },  //Retake
   'com.ai.face.play': { cm: 'timea', hx: 'hxpda', id: "fp_yearly_20240326", latest: "chxm1023" },  //FacePlay
@@ -112,7 +113,7 @@ const list = {
   'Photo%20Cutout': { cm: 'timea', hx: 'hxpda', id: "com.icepine.allyear", latest: "chxm1023" },  //轻松扣图
   'cleanPhone': { cm: 'timea', hx: 'hxpda', id: "com.clean.year", latest: "chxm1023" },  //爱机清理
   'ppt': { cm: 'timea', hx: 'hxpda', id: "com.palmmob.pptios.yearly", latest: "chxm1023" },  //手机PPT制作
-  'WasteCat': { cm: 'timeb', hx: 'hxpda', id: "dev.sanjin.WasteCat.PermanentVip", latest: "chxm1023" },  //垃圾贪吃猫
+  'WasteCat': { cm: 'timeb', hx: 'hxpda', id: "dev.sanjin.WasteCat.PermanentVip", latest: "chxm1023" },  //拦截猫
   'MeowTalk': { cm: 'timea', hx: 'hxpda', id: "meowtalk.month.basic.autorenewable.subscription", latest: "chxm1023" },  //喵说
   'habitdot': { cm: 'timeb', hx: 'hxpda', id: "habitdots_pro_forever", latest: "chxm1023" },  //习惯点点
   'stretchworkout': { cm: 'timea', hx: 'hxpda', id: "com.abishkking.premiumYearStretch", latest: "chxm1023" },  //拉伸运动
@@ -232,7 +233,7 @@ const list = {
   'com.SingingFish.SudokuGame': { cm: 'timea', hx: 'hxpda', id: "com.singingfish.sudokugame.year", latest: "chxm1023" },  //数独
   'com.kuaijiezhilingdashi.appname': { cm: 'timea', hx: 'hxpda', id: "com.othermaster.yearlyvip", latest: "chxm1023" },  //快捷指令库
   'LogInput': { cm: 'timea', hx: 'hxpda', id: "com.logcg.loginput", latest: "chxm1023" },  //落格输入法
-  'SoundLab': { cm: 'timea', hx: 'hxpda', id: "8800", latest: "chxm1023" },  //合声
+  'SoundLab': { cm: 'timea', hx: 'hxpda', id: "8001", latest: "chxm1023" },  //合声
   'Kilonotes': { cm: 'timea', hx: 'hxpda', id: "kipa_kilonotes_quarter_subscription", latest: "chxm1023" },  //千本笔记
   'YiJianKouTu': { cm: 'timea', hx: 'hxpda', id: "XiChaoYiJianKouTuPlus", latest: "chxm1023" },  //一键抠图
   'FileArtifact': { cm: 'timea', hx: 'hxpda', id: "com.shengzhou.fileartifact.year", latest: "chxm1023" },  //文晓生
