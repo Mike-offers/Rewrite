@@ -48,6 +48,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Origami': { name: 'Premium', id: 'origami_499_1m', cm: 'sjb' },  //折纸
   'Forward': { name: 'pro', id: 'forward.vip.peryear', cm: 'sjb' },  //Forward-新视界
   'djay': { name: 'pro', id: 'com.algoriddim.djay_iphone_free.pro.yearly', cm: 'sja' },  //djay
   'Vocab%20AI': { name: 'AI Pro', id: 'vocabAI_900_1m', cm: 'sja' },  //坚果单词
