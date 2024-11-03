@@ -48,6 +48,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Ricoh%20Recipes': { name: 'Patron', id: 'Ricoh_Patron', cm: 'sja' },  //RicohRecipes
   'Fade%20It': { name: 'Plus', id: 'fadeit.carol1', cm: 'sjb' },  //Fade It
   'PixImagine': { name: 'com.efsoft.piximagine_nc_lifetime', id: 'com.efsoft.piximagine_nc_lifetime', cm: 'sjb' },  //PixImage
   'Origami': { name: 'Premium', id: 'origami_499_1m', cm: 'sjb' },  //折纸
