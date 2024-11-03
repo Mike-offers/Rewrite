@@ -22,7 +22,6 @@ hostname = buy.itunes.apple.com
 
 *************************************/
 
-
 var chxm1023 = JSON.parse($response.body);
 const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
@@ -32,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.tj.first.vlogr': { cm: 'timeb', hx: 'hxpda', id: "vlogr.pro.yearly.subscription", latest: "chxm1023" },  //Vlogr
   'com.auroroamob.org.GamePlayAICamera': { cm: 'timeb', hx: 'hxpda', id: "makacamera_permanent", latest: "chxm1023" },  //玛卡相机
   'com.byteapp.tubepod': { cm: 'timea', hx: 'hxpda', id: "com.byteapp.tubepod.year", latest: "chxm1023" },  //tubepod
   'com.youthpe.retake': { cm: 'timeb', hx: 'hxpda', id: "retake_unlock_forever", latest: "chxm1023" },  //Retake
