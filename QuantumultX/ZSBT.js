@@ -17,7 +17,6 @@ hostname = w.liupinyike.com
 *************************************/
 
 let Mike=JSON.parse($response.body);
-let requestUrl=$request.url;
 Mike = {
   "status" : 0,
   "msg" : "获取成功",
