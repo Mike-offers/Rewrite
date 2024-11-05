@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.happy.VideoEditor': { cm: 'timeb', hx: 'hxpda', id: "subscribe_Year_Trial_Video", latest: "chxm1023" },  //易剪影
   '(com.((mycall|island4klk|wutidef|keainotch|live4klock|haoluckywood|zuibeautyphoto).cn)|(jiandanisland.ccn)|(BertonYc.ScannerOCR))|(zw.EmoticonPackage)': { cm: 'timeb', hx: 'hxpda', id: "anyu_y", latest: "chxm1023" },  //许鑫所有应用全解锁&万能扫描王-批量文字识别和表格识别斗图表情包-聊天必备gif制作
   'com.tj.first.vlogr': { cm: 'timeb', hx: 'hxpda', id: "vlogr.pro.yearly.subscription", latest: "chxm1023" },  //Vlogr
   'com.auroroamob.org.GamePlayAICamera': { cm: 'timeb', hx: 'hxpda', id: "makacamera_permanent", latest: "chxm1023" },  //玛卡相机
