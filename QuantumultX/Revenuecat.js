@@ -52,7 +52,7 @@ const list = {
   'Fade%20It': { name: 'Plus', id: 'fadeit.carol1', cm: 'sjb' },  //Fade It
   'PixImagine': { name: 'com.efsoft.piximagine_nc_lifetime', id: 'com.efsoft.piximagine_nc_lifetime', cm: 'sjb' },  //PixImage
   'Origami': { name: 'Premium', id: 'origami_499_1m', cm: 'sjb' },  //折纸
-  'Forward': { name: 'pro', id: 'forward.vip.peryear', cm: 'sjb' },  //Forward-新视界
+  'Forward': { name: 'pro', id: 'forward.vip.peryear', cm: 'sja' },  //Forward-新视界
   'djay': { name: 'pro', id: 'com.algoriddim.djay_iphone_free.pro.yearly', cm: 'sja' },  //djay
   'Vocab%20AI': { name: 'AI Pro', id: 'vocabAI_900_1m', cm: 'sja' },  //坚果单词
   'PicLoom': { name: 'com.efsoft.picloom_nc_lifetime', id: 'com.efsoft.picloom_nc_lifetime', cm: 'sjb' },  //PicLoom
