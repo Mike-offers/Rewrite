@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.((mycall|island4klk|wutidef|keainotch|live4klock|haoluckywood|zuibeautyphoto).cn)|(jiandanisland.ccn)': { cm: 'timeb', hx: 'hxpda', id: "anyu_y", latest: "chxm1023" },  //许鑫所有应用全解锁
   'com.tj.first.vlogr': { cm: 'timeb', hx: 'hxpda', id: "vlogr.pro.yearly.subscription", latest: "chxm1023" },  //Vlogr
   'com.auroroamob.org.GamePlayAICamera': { cm: 'timeb', hx: 'hxpda', id: "makacamera_permanent", latest: "chxm1023" },  //玛卡相机
   'com.byteapp.tubepod': { cm: 'timea', hx: 'hxpda', id: "com.byteapp.tubepod.year", latest: "chxm1023" },  //tubepod
