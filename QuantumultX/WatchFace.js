@@ -1,7 +1,8 @@
 ﻿﻿/*************************************
 
->「 脚本名称 」         WatchFace解锁Pro
+>「 脚本名称 」         WatchFace-表盘商店解锁Pro
 >「 脚本作者 」         M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
+>「 下载链接 」         https://apps.apple.com/cn/app/%E8%A1%A8%E7%9B%98%E5%95%86%E5%BA%97-iwatch-faces-gallery/id1498365237
 >「 电报频道 」         https://t.me/TrollStoreKios 
 >「 更新时间 」         2024-10-26
 >「 注意事项 」         如需引用请注明出处，谢谢合作！
