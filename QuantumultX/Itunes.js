@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'health.sleep.sounds.tracker.alarm.calm': { cm: 'timea', hx: 'hxpda', id: "shuteye.vip.feature.unlock.tier1", latest: "chxm1023" },  //星空睡眠
   'faceapp.snaplab.magikoly.ai.ios': { cm: 'timea', hx: 'hxpda', id: "com.magiklab.week.notrial4", latest: "chxm1023" },  //MagikLab
   'com.xinling.pianoNotation': { cm: 'timeb', hx: 'hxpda', id: "com.number.weekly", latest: "chxm1023" },  //钢琴简谱-写简谱
   'com.happy.VideoEditor': { cm: 'timeb', hx: 'hxpda', id: "subscribe_Year_Trial_Video", latest: "chxm1023" },  //易剪影
