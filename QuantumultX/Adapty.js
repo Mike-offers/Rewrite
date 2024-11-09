@@ -27,6 +27,7 @@ const profileid = headers['adapty-sdk-profile-id'] || headers['ADAPTY-SDK-PROFIL
 const time = Date.now();
 
 const list = {
+  'KeyboardGPT': { dy: 'dypda', id: "smart.keyboard.yearly.01", bundle_id: "com.smart.keyboard" },  //AiChatbot
   'SketchAR': { dy: 'dypda', id: "tech.sketchar.subscription.yearly", bundle_id: "tech.sketchar.ios" },  // Sketchar-AR画图应用
   'universal': { dy: 'dypda', id: "remotetv.yearly.01", bundle_id: "com.universal.remotetv", },  // TVRemote万能遥控器
   'Lingvist': { dy: 'dypda', id: "com.lingvist.unlimited_12_months.v11.full_1md_ft", bundle_id: "ee.keel24.Lingvist" },  // Lingvist-学习英语
