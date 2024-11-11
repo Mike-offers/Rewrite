@@ -49,7 +49,7 @@ const bundle = {
 
 //识别UA
 const list = {
-  'JellyCut': { name: 'pro', id: 'premium', cm: 'sjb' },  //JellyCut
+  'Jellycuts': { name: 'pro', id: 'premium', cm: 'sjb' },  //Jellycuts
   'ChatPub': { name: 'Unlimited Access', id: 'conversationai.year', cm: 'sja' },  //ChatPub
   'Goodnotes6': { name: 'apple_access', id: 'com.goodnotes6.one_time_unlock', cm: 'sja' },  //Goodnotes6
   'Ricoh%20Recipes': { name: 'Patron', id: 'Ricoh_Patron', cm: 'sja' },  //RicohRecipes
