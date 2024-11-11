@@ -49,6 +49,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'ChatPub': { name: 'Unlimited Access', id: 'conversationai.year', cm: 'sja' },  //ChatPub
   'Goodnotes6': { name: 'apple_access', id: 'com.goodnotes6.one_time_unlock', cm: 'sja' },  //Goodnotes6
   'Ricoh%20Recipes': { name: 'Patron', id: 'Ricoh_Patron', cm: 'sja' },  //RicohRecipes
   'Fade%20It': { name: 'Plus', id: 'fadeit.carol1', cm: 'sjb' },  //Fade It
