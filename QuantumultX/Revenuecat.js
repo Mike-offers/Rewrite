@@ -49,6 +49,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'QuitNow': { name: 'pro_features', id: 'pro_features_year_subscription', cm: 'sjb' },  //QuitNow
   'Jellycuts': { name: 'pro', id: 'premium', cm: 'sjb' },  //Jellycuts
   'ChatPub': { name: 'Unlimited Access', id: 'conversationai.year', cm: 'sja' },  //ChatPub
   'Goodnotes6': { name: 'apple_access', id: 'com.goodnotes6.one_time_unlock', cm: 'sja' },  //Goodnotes6
