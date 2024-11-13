@@ -9,7 +9,7 @@
 >「 注意事项 」         [主页]-[精品课程]未解锁 可以通过其他地方进入 
 >「 额外说明 」         请勿传播或售卖此脚本
 
-[rewrite_local]]
+[rewrite_local]
 ^https?:\/\/(?:h5\.|platform\.)?singerdream\.com\/(?!.*\.jpg).*$  url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/JGTY.js
 
 [mitm]
