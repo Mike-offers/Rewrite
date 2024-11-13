@@ -49,6 +49,8 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Moises': { name: 'Premium', id: 'yearly', cm: 'sjb' },  //Moises
+  'Moises': { name: 'Pro', id: 'pro_yearly', cm: 'sjb' },  //Moises
   'QuitNow': { name: 'pro_features', id: 'pro_features_year_subscription', cm: 'sjb' },  //QuitNow
   'Jellycuts': { name: 'pro', id: 'premium', cm: 'sja' },  //Jellycuts
   'ChatPub': { name: 'Unlimited Access', id: 'conversationai.year', cm: 'sja' },  //ChatPub
