@@ -49,6 +49,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'OneTap': { name: 'pro', id: 'DiscountedProLifetime', cm: 'sjb' },  //OneTap
   'Moises': { name: 'Premium', id: 'yearly', cm: 'sjb' },  //Moises
   'Moises': { name: 'Pro', id: 'pro_yearly', cm: 'sjb' },  //Moises
   'QuitNow': { name: 'pro_features', id: 'pro_features_year_subscription', cm: 'sjb' },  //QuitNow
