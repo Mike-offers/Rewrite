@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https:\/\/pgapi\.(photogrid\.app|ksmobile\.com)\/v\d\/ios\/auth  url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/PhotoGrid.js
+^https?:\/\/pgapi\.(photogrid\.app|ksmobile\.com)\/v\d\/ios\/auth url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/PhotoGrid.js
 
 [mitm]
 hostname = pgapi.photogrid.app , pgapi.ksmobile.com
