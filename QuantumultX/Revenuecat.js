@@ -49,6 +49,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'HoneyNote': { name: 'HoneyNote AI Pro', id: 'NCIAP_A_149_99', cm: 'sjb' },  //HoneyNote AI
   'OneTap': { name: 'pro', id: 'DiscountedProLifetime', cm: 'sjb' },  //OneTap
   'Moises': { name: 'Premium', id: 'yearly', cm: 'sjb' },  //Moises
   'Moises': { name: 'Pro', id: 'pro_yearly', cm: 'sjb' },  //Moises
