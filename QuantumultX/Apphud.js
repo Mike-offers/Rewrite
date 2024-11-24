@@ -12,7 +12,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.apphud\.com\/v\d\/(subscriptions|customers)$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/apphud.js
+^https?:\/\/.*\.apphud\.com\/v\d\/(subscriptions|customers)$ url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Apphud.js
 
 [mitm]
 hostname = *.apphud.com
