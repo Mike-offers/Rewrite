@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/europe-west1-ai-art-generator-services\.cloudfunctions\.net\/app\/user\/ url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/WizardAI.js
+^https?:\/\/europe-west1-ai-art-generator-services\.cloudfunctions\.net\/app\/user\/coins url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/WizardAI.js
 
 [mitm]
 hostname = http://europe-west1-ai-art-generator-services.cloudfunctions.net
