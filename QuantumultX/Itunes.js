@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.highonemob.weather': { cm: 'timeb', hx: 'hxpda', id: "com.highonemob.weather.base.w", latest: "chxm1023" },  //安心天气
   'MonitorPlus': { cm: 'timeb', hx: 'hxpda', id: "com.unhonin.MonitorPlus.proversion", latest: "chxm1023" },  //Monitor+
   'MessageHold': { cm: 'timeb', hx: 'hxpda', id: "com.messagehold.forever", latest: "chxm1023" },  //拦截盾
   'com.appalex.learnlanguages': { cm: 'timeb', hx: 'hxpda', id: "language_sub_lifetime", latest: "chxm1023" },  //Wordy
