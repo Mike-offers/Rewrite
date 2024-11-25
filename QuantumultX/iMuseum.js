@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/icity-imsm\.2q10\.com\/api\/v1\/users\/mark_paid url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/iMuseum.js
+^https?:\/\/icity-imsm\.2q10\.com\/api\/v\d\/users\/mark_paid url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/iMuseum.js
 
 [mitm]
 hostname = icity-imsm.2q10.com
