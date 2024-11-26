@@ -10,8 +10,8 @@
 
 [rewrite_local]
 ^https?:\/\/apigate.kaimanhua.com\/zymk.+(paychapters|getuserinfo).*$   url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/ZYMK.js
-^https:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\?) url reject-200
-^https?://api-cdn\.kaimanhua\.com/advertiseapi/app/advertise/getappadvertise url reject
+^https?:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\?) url reject-200
+^https?:\/\/api-cdn\.kaimanhua\.com\/advertiseapi\/app\/advertise\/getappadvertise url reject
 
 [mitm]
 hostname = apigate.kaimanhua.com , api-access.pangolin-sdk-toutiao.com ,  mi.gdt.qq.com ,  open.e.kuaishou.com , api-cdn.kaimanhua.com
