@@ -26,8 +26,9 @@ const list = [
   "one.time.prremium",
   "ok.annual.sub",
   "AFMS",
-  "com.tm.replica.lifetime",
-  "Plant_1w_7.99_3d"
+  "com.tm.replica.lifetime",  //Replica-Screen Mirroring
+  "Plant_1w_7.99_3d",
+  "com.newlearning.english.premium.forever"  //Excellent English
 ];
 
 const createSubscription = (productId = "one.time.prremium") => {
