@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.cuilingshi.fileextract': { cm: 'timea', hx: 'hxpda', id: "Unzip_ProVersion", latest: "chxm1023" },  //Unzip
   'AIAssistant': { cm: 'timea', hx: 'hxpda', id: "AIchat_1w_7.99_trial", latest: "chxm1023" },  //AIAssistant
   'com.highonemob.weather': { cm: 'timeb', hx: 'hxpda', id: "com.highonemob.weather.base.w", latest: "chxm1023" },  //安心天气
   'MonitorPlus': { cm: 'timeb', hx: 'hxpda', id: "com.unhonin.MonitorPlus.proversion", latest: "chxm1023" },  //Monitor+
