@@ -22,7 +22,7 @@ var objc = {
   "request_date" : "2024-06-19T00:59:16Z",
   "subscriber" : {
     "non_subscriptions" : {
-      "" : [
+      "" : [//这里替换成你要解锁的产品id
         {
           "id" : "759cb6d043",
           "is_sandbox" : true,
@@ -36,13 +36,13 @@ var objc = {
     "first_seen" : "2024-06-18T12:50:41Z",
     "original_application_version" : "22",
     "other_purchases" : {
-      "" : {
+      "" : {//这里替换成你要解锁的产品id
         "purchase_date" : "2024-06-18T12:56:47Z"
       }
     },
     "management_url" : "https://apps.apple.com/account/subscriptions",
     "subscriptions" : {
-      "" : {
+      "" : {//这里替换成你要解锁的产品id
         "unsubscribe_detected_at" : null,
         "expires_date" : "9999-06-19T01:58:35Z",
         "is_sandbox" : true,
@@ -59,16 +59,16 @@ var objc = {
       }
     },
     "entitlements" : {
-      "" : {
+      "" : {//这里替换成你要解锁的entitlements下方值
         "grace_period_expires_date" : null,
         "purchase_date" : "2024-06-18T12:56:47Z",
-        "product_identifier" : "",
+        "product_identifier" : "",//这里替换成你要解锁的产品id
         "expires_date" : null
       },
-      "" : {
+      "" : {//这里替换成你要解锁的entitlements下方值
         "grace_period_expires_date" : null,
         "purchase_date" : "2024-06-19T00:58:35Z",
-        "product_identifier" : "",
+        "product_identifier" : "",//这里替换成你要解锁的产品id
         "expires_date" : "9999-06-19T01:58:35Z"
       }  //多个entitlements内容
     },
