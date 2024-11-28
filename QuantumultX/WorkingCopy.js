@@ -10,7 +10,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/education\.github\.com\/api\/user$   url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/WorkingCopy.js
+^https?:\/\/education\.github\.com\/api\/user$ url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/WorkingCopy.js
 
 [mitm]
 hostname = education.github.com
