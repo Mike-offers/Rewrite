@@ -3,9 +3,7 @@
 >「 脚本名称 」         Working Copy解锁Vip
 >「 脚本作者 」         M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
 >「 电报频道 」         https://t.me/TrollStoreKios 
-利用 GitHub Education 解锁 Working Copy
->「 使用说明 」   
-启用此脚本后再 Safari 打开 https://workingcopy.app/education/ 点击「tap here to access all pro features.」中的 here 跳转到 Working Copy，登录自己的 GitHub 账号即可解锁
+>「 使用说明 」         利用 GitHub Education解锁Working Copy，启用此脚本后再 Safari 打开 https://workingcopy.app/education/ 点击「tap here to access all pro features.」中的 here 跳转到 Working Copy，登录自己的 GitHub 账号即可解锁
 >「 更新时间 」         2024-11-14
 >「 注意事项 」         如需引用请注明出处，谢谢合作！
 >「 注意事项 」         使用此脚本，会导致AppleStore无法切换账户，解决方法[关闭QX切换账户，或关闭MITM，或删除脚本，或去设置媒体与购买项目处切换ID]
