@@ -35,7 +35,7 @@ const list = [
 
 const createSubscription = (productId = "one.time.premium", groupid = "1a2b3c4d") => {
   return {
-    "status": "trial",
+    "status": "trial", //"status": "regular"
     "group_id": groupid,
     "autorenew_enabled": false,
     "introductory_activated": true,
