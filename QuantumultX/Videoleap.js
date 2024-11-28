@@ -1,6 +1,6 @@
 ﻿/*************************************
 
->「 脚本名称 」         AdGuard-Safari浏览扩展解锁Pro
+>「 脚本名称 」         Videoleap解锁Vip
 >「 脚本作者 」         M̆̈̆̈ĭ̈̆̈k̆̈̆̈ĕ̈
 >「 电报频道 」         https://t.me/TrollStoreKios 
 >「 更新时间 」         2024-10-27
@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/api\.lightricks\.com\/subscription  url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Videoleap.js
+^https?:\/\/api\.lightricks\.com\/subscription url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Videoleap.js
 
 [mitm]
 hostname = api.lightricks.com
