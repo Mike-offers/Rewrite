@@ -31,6 +31,12 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.fleurbudget': { cm: 'timea', hx: 'hxpda', id: "fleur_lifetime_2", latest: "chxm1023" },  //Fleur记账
+  'com.fleurbudget': { cm: 'timea', hx: 'hxpda', id: "fleur_lifetime_3", latest: "chxm1023" },  //Fleur记账
+  'elegantplanner.app': { cm: 'timea', hx: 'hxpda', id: "floret_lifetime_2", latest: "chxm1023" },  //Floret
+  'quitanger.app': { cm: 'timea', hx: 'hxpda', id: "housedesign_lifetime", latest: "chxm1023" },  //Quit Anger
+  'miary.app': { cm: 'timea', hx: 'hxpda', id: "lifetime_sub", latest: "chxm1023" },  //Miary
+  'app.housedesign': { cm: 'timea', hx: 'hxpda', id: "housedesign_lifetime", latest: "chxm1023" },  //Room Planner-室内设计
   'Fasta': { cm: 'timea', hx: 'hxpda', id: "fasta_lifetime_sub", latest: "chxm1023" },  //Fasta
   'Graphionica': { cm: 'timea', hx: 'hxpda', id: "premium_year", latest: "chxm1023" },  //Graphionica
   'in.muditbhargava.LookUp': { cm: 'timea', hx: 'hxpda', id: "com.squircle.lookup.plus.lifetime", latest: "chxm1023" },  //LookUp
