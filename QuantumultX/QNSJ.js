@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/.*\.qingning6\.com\/api\/(user\/getUserInfo|team\/teamInfo)  url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/QNSJ.js
+^https?:\/\/.*\.qingning6\.com\/api\/(user\/getUserInfo|team\/teamInfo) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/QNSJ.js
 
 [mitm]
 hostname = *.qingning6.com
