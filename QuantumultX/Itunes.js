@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'Fasta': { cm: 'timea', hx: 'hxpda', id: "fasta_lifetime_sub", latest: "chxm1023" },  //Fasta
   'Graphionica': { cm: 'timea', hx: 'hxpda', id: "premium_year", latest: "chxm1023" },  //Graphionica
   'in.muditbhargava.LookUp': { cm: 'timea', hx: 'hxpda', id: "com.squircle.lookup.plus.lifetime", latest: "chxm1023" },  //LookUp
   'com.cuilingshi.fileextract': { cm: 'timea', hx: 'hxpda', id: "Unzip_ProVersion", latest: "chxm1023" },  //Unzip-解压缩
