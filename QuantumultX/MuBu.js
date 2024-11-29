@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/api2\.mubu\.com\/v3\/api\/user\/current_user   url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/MuBu.js
+^https?:\/\/api2\.mubu\.com\/v\d\/api\/user\/current_user url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/MuBu.js
 
 [mitm]
 hostname = api2.mubu.com
