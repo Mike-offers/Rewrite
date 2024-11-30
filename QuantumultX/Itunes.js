@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'DeviceFinder': { cm: 'timeb', hx: 'hxpda', id: "com.wonderfind.lifetime", latest: "chxm1023" },  //Wonderfind-设备查找
   'com.face.replacer': { cm: 'timea', hx: 'hxpda', id: "93_premium_normal_yearly", latest: "chxm1023" },  //FaceSwapper
   'com.fleurbudget': { cm: 'timea', hx: 'hxpda', id: "fleur_lifetime_2", latest: "chxm1023" },  //Fleur记账
   'com.fleurbudget': { cm: 'timea', hx: 'hxpda', id: "fleur_lifetime_3", latest: "chxm1023" },  //Fleur记账
