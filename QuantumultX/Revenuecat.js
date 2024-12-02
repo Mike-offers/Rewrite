@@ -50,6 +50,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'photography': { name: 'premium', id: 'photography_sub_yearly_1', cm: 'sja' },  //PhotoX
   'Hevy': { name: '', id: 'hevypro_lifetime_tier55', cm: 'sjb' },  //Hevy
   'PlantSnap': { name: 'default', id: 'net.plantsnap.freemium.app.premium', cm: 'sjb' },  //PlantSnap-植物识别
   '%E8%90%8C%E5%AE%A2AI%E7%BB%98%E7%94%BB': { name: 'AISticker_VIP', id: 'LifetimeSubscription_Sticker', cm: 'sjb' },  //萌客AI绘画
