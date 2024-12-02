@@ -35,7 +35,7 @@ if (forbiddenAppFound) {
 
 //识别bundle_id
 const bundle = {
-  'Light': { name: 'premium_rc', id: 'com.miiiao.iwallpaper.lifetime', cm: 'sjb' },  //Light壁纸
+  'com.reku.Counter': { name: 'plus', id: 'com.reku.counter.plus.lifetime', cm: 'sjb' },  //Counter-计步器
   'TeleprompterX': { name: 'Pro Upgrade', id: 'TPXOTP', cm: 'sjb' },  //Teleprompter
   'moonbox.co.il.grow': { name: 'pro', id: 'moonbox.co.il.grow.lifetime.offer', cm: 'sjb' },  //植物识别-PlantID
   'tech.miidii.MDClock': { name: 'Entitlement.Pro', id: 'tech.miidii.MDClock.pro', cm: 'sjb' },  //谜底时钟
@@ -50,6 +50,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Light': { name: 'premium_rc', id: 'com.miiiao.iwallpaper.lifetime', cm: 'sjb' },  //Light壁纸
   'photography': { name: 'premium', id: 'photography_sub_yearly_1', cm: 'sja' },  //PhotoX
   'Hevy': { name: '', id: 'hevypro_lifetime_tier55', cm: 'sjb' },  //Hevy
   'PlantSnap': { name: 'default', id: 'net.plantsnap.freemium.app.premium', cm: 'sjb' },  //PlantSnap-植物识别
