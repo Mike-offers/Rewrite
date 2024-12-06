@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.weather.NOBWeather5': { cm: 'timea', hx: 'hxpda', id: "NOBWeather5.com.vip.yearly", latest: "chxm1023" },  //奈斯天气
   'com.maine.aifill': { cm: 'timeb', hx: 'hxpda', id: "com.maine.aifill.unlimited", latest: "chxm1023" },  //AI FILL-智能填充.换衣/换背景
   'DeviceFinder': { cm: 'timeb', hx: 'hxpda', id: "com.wonderfind.lifetime", latest: "chxm1023" },  //Wonderfind-设备查找
   'com.face.replacer': { cm: 'timea', hx: 'hxpda', id: "93_premium_normal_yearly", latest: "chxm1023" },  //FaceSwapper
