@@ -51,6 +51,8 @@ const bundle = {
 
 //识别UA
 const list = {
+  'com.runbuddy.prod': { name: 'premium', id: 'rb_9999_1y_1y7999', cm: 'sja' },  //Runna-马拉松训练
+  'com.reku.Counter': { name: 'plus', id: 'com.reku.counter.plus.lifetime', cm: 'sjb' },  //Counter-计步器
   'Light': { name: 'premium_rc', id: 'com.miiiao.iwallpaper.lifetime', cm: 'sjb' },  //Light壁纸
   'photography': { name: 'premium', id: 'photography_sub_yearly_1', cm: 'sja' },  //PhotoX
   'Hevy': { name: '', id: 'hevypro_lifetime_tier55', cm: 'sjb' },  //Hevy
