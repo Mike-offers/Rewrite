@@ -51,6 +51,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'ClevCalc': { name: 'Premium', id: 'com.dencreak.dlcalculator.iap.dlc_no_ads_permanent', cm: 'sjb' },  //万能计算器
   'Tracepad-iOS': { name: 'unlock', id: 'tracepad_unlock_all_gesture_5', cm: 'sjb' },  //Tracepad - 无线触控板模拟
   'Light': { name: 'premium_rc', id: 'com.miiiao.iwallpaper.lifetime', cm: 'sjb' },  //Light壁纸
   'photography': { name: 'premium', id: 'photography_sub_yearly_1', cm: 'sja' },  //PhotoX
