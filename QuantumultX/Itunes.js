@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.thirteenleafclover.art.generator': { cm: 'timeb', hx: 'hxpda', id: "com.thirteenleafclover.art.generator.unidreamlifetimevip", latest: "chxm1023" },  //Uni Dream
   'com.cuilingshi.flipclock': { cm: 'timeb', hx: 'hxpda', id: "FlipClockProVersion", latest: "chxm1023" },  //翻页时钟
   'com.weather.NOBWeather5': { cm: 'timea', hx: 'hxpda', id: "NOBWeather5.com.vip.yearly", latest: "chxm1023" },  //奈斯天气
   'com.maine.aifill': { cm: 'timeb', hx: 'hxpda', id: "com.maine.aifill.unlimited", latest: "chxm1023" },  //AI FILL-智能填充.换衣/换背景
