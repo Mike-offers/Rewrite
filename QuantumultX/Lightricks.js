@@ -18,7 +18,9 @@ hostname = (.+api).lightricks.com
 
 var Mike = JSON.parse($response.body);
 
-var productidarrays={ 	'RStarsShare':['Mike','https://t.me/TrollStoreKios'], 	'com.lightricks.Facetune2':['Facetune','com.lightricks.Facetune2.V3.PricingJul22D.NT.OneTimePayment'],
+var productidarrays={ 	
+'RStarsShare':['Mike','https://t.me/TrollStoreKios'], 	
+'com.lightricks.Facetune2':['Facetune','com.lightricks.Facetune2.V3.PricingJul22D.NT.OneTimePayment'],
 'com.lightricks.Enlight-Video':['Videoleap','com.lightricks.EnlightVideo_V2.PQ.OTP.SA_OTP.SA'],
 'com.lightricks.Enlight-Phoenix_V2.PB.OTP.SA_OTP.SA':['Motionleap','com.lightricks.EnlightPhoenix_V2.PB.OTP.SA_OTP.SA'],
 'com.lightricks.Enlight-Photos':['Lightleap','com.lightricks.EnlightPhotos_V2.PA.OTP.SA_OTP.SA'],
