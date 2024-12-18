@@ -6,7 +6,7 @@
 >「 更新时间 」         2024-10-26
 >「 注意事项 」         如需引用请注明出处，谢谢合作！
 >「 注意事项 」         使用此脚本，会导致AppleStore无法切换账户，解决方法[关闭QX切换账户，或关闭MITM，或删除脚本，或去设置媒体与购买项目处切换ID]
->「 额外说明 」         product_id填的内容必须相同，bundle_id填的内容为解锁的对应product_id的软件应用标识符
+>「 额外说明 」         product_id填的内容必须相同，auto_renew_product_id与product_id一般相同，也有个别不同，bundle_id填的内容为解锁的对应product_id的软件应用标识符
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
@@ -52,6 +52,7 @@ var objc = {
     "request_date_pst": "2024-09-03 01:54:56 America\/Los_Angeles",
     "version_external_identifier": 868619334,
     "request_date_ms": "1725353696892",
+    "original_purchase_date": "2024-09-03 01:53:52 America\/Los_Angeles",
     "original_purchase_date_pst": "2024-09-03 01:53:52 America\/Los_Angeles",
     "application_version": "190",
     "original_purchase_date_ms": "1725353632000",
