@@ -35,6 +35,7 @@ if (forbiddenAppFound) {
 
 //识别bundle_id
 const bundle = {
+  'camp.user.penbook': { name: 'pro', id: 'penbook.lifetime01', cm: 'sjb' },  //Penbook-智能笔记本
   'design.yugen.Flow': { name: 'pro', id: 'design.yugen.Flow.Lifetime', cm: 'sja' },  //Flow-番茄工作/专注计时器   
   'com.runbuddy.prod': { name: 'premium', id: 'rb_9999_1y_1y7999', cm: 'sja' },  //Runna-马拉松训练
   'com.reku.Counter': { name: 'plus', id: 'com.reku.counter.plus.lifetime', cm: 'sjb' },  //Counter-计步器
@@ -52,6 +53,11 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Food-Diary': { name: 'Premium', id: 'fd_lifetime', cm: 'sjb' },  //美食日记
+  'Medication%20List': { name: 'Premium', id: 'ml_lifetime', cm: 'sjb' },  //药准时
+  'becoming': { name: 'Strength Pro', id: 'strength_membership_lifetime', cm: 'sjb' },  //练就
+  'SCRL': { name: 'com.dopedevelopment.Panels.subscription.Pro_Dynamic_Pricing', id: 'strength_membership_lifetime', cm: 'sja' },  //SCRL-图片拼接
+  'Morphose': { name: 'ProStandard', id: 'com.pixery.morphose.yearly', cm: 'sja' },  //Morphose
   'ClevCalc': { name: 'Premium', id: 'com.dencreak.dlcalculator.iap.dlc_no_ads_permanent', cm: 'sjb' },  //万能计算器
   'Tracepad-iOS': { name: 'unlock', id: 'tracepad_unlock_all_gesture_5', cm: 'sjb' },  //Tracepad - 无线触控板模拟
   'Light': { name: 'premium_rc', id: 'com.miiiao.iwallpaper.lifetime', cm: 'sjb' },  //Light壁纸
