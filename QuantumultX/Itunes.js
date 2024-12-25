@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'YinzhangMaster': { cm: 'timeb', hx: 'hxpda', id: "com.xiaoqi.seal.forever", latest: "chxm1023" },  //印章大师
   'com.thirteenleafclover.art.generator': { cm: 'timeb', hx: 'hxpda', id: "com.thirteenleafclover.art.generator.unidreamlifetimevip", latest: "chxm1023" },  //Uni Dream
   'com.cuilingshi.flipclock': { cm: 'timeb', hx: 'hxpda', id: "FlipClockProVersion", latest: "chxm1023" },  //翻页时钟
   'com.weather.NOBWeather5': { cm: 'timea', hx: 'hxpda', id: "NOBWeather5.com.vip.yearly", latest: "chxm1023" },  //奈斯天气
