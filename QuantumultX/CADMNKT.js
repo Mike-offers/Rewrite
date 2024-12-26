@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/.*\.pcw365\.com\/(minicad\/api\/auth\/ioslogintoken|ios\/service_use)  url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/CADMNKT.js
+^https?:\/\/.*\.pcw365\.com\/(minicad\/api\/auth\/ioslogintoken|ios\/service_use) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/CADMNKT.js
 
 [mitm]
 hostname = *.pcw365.com
