@@ -53,6 +53,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'com.dison.diary': { name: 'vip', id: 'lifetime', cm: 'sjb' },  //随心记
   'Food-Diary': { name: 'Premium', id: 'fd_lifetime', cm: 'sjb' },  //美食日记
   'Medication%20List': { name: 'Premium', id: 'ml_lifetime', cm: 'sjb' },  //药准时
   'becoming': { name: 'Strength Pro', id: 'strength_membership_lifetime', cm: 'sjb' },  //练就
