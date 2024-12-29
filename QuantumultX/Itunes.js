@@ -31,6 +31,11 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.pl.c': { cm: 'timea', hx: 'hxpda', id: "CShellMonthUnlock", latest: "chxm1023" },  //C Shell
+  'com.pl.cpp': { cm: 'timea', hx: 'hxpda', id: "CppShellMonthUnlock", latest: "chxm1023" },  //C++ Shell
+  'com.pl.ticiqi': { cm: 'timea', hx: 'hxpda', id: "TiciqiMonthUnlock", latest: "chxm1023" },  //提词器
+  'com.pl.python': { cm: 'timea', hx: 'hxpda', id: "python3_unlock_functions", latest: "chxm1023" },  //Python3 Charm
+  'com.cyp.nowordsKeyboard': { cm: 'timea', hx: 'hxpda', id: "keyboard_month_order", latest: "chxm1023" },  //动图输入法
   'YinzhangMaster': { cm: 'timeb', hx: 'hxpda', id: "com.xiaoqi.seal.forever", latest: "chxm1023" },  //印章大师
   'com.thirteenleafclover.art.generator': { cm: 'timeb', hx: 'hxpda', id: "com.thirteenleafclover.art.generator.unidreamlifetimevip", latest: "chxm1023" },  //Uni Dream
   'com.cuilingshi.flipclock': { cm: 'timeb', hx: 'hxpda', id: "FlipClockProVersion", latest: "chxm1023" },  //翻页时钟
