@@ -57,7 +57,10 @@ const list = {
   'Fontsify': { name: 'pro', id: 'media.upstate.fontify.lifetime', cm: 'sjb' },  //Fontsify-字体
   'com.dison.diary': { name: 'vip', id: 'lifetime', cm: 'sjb' },  //随心记
   'Food-Diary': { name: 'Premium', id: 'fd_lifetime', cm: 'sjb' },  //美食日记
-  'Medication%20List': { name: 'Premium', id: 'ml_lifetime', cm: 'sjb' },  //药准时
+  'Meal%20Planner': { name: 'premium', id: 'mp_1999_lifetime', cm: 'sjb' },  //膳食计划员
+  'Medication%20List': { name: 'Premium', id: 'ml_lifetime', cm: 'sjb' },  //MedicationList-药准时
+  'Shared%20Family%20Shopping%20List': { name: 'premium', id: 'ls_1299_lifetime', cm: 'sjb' },  //购物清单
+  'Pantry%20Check': { name: 'Premium', id: 'pc_lifetime', cm: 'sjb' },  //Pantry Check
   'becoming': { name: 'Strength Pro', id: 'strength_membership_lifetime', cm: 'sjb' },  //练就
   'SCRL': { name: 'com.dopedevelopment.Panels.subscription.Pro_Dynamic_Pricing', id: 'strength_membership_lifetime', cm: 'sja' },  //SCRL-图片拼接
   'Morphose': { name: 'ProStandard', id: 'com.pixery.morphose.yearly', cm: 'sja' },  //Morphose
