@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.idealityapp.VideoEditing': { cm: 'timeb', hx: 'hxpda', id: "MagicVideo_Vip_Permanent", latest: "chxm1023" },  //魔影-视频剪辑
   'com.pl.c': { cm: 'timea', hx: 'hxpda', id: "CShellMonthUnlock", latest: "chxm1023" },  //C Shell
   'com.pl.cpp': { cm: 'timea', hx: 'hxpda', id: "CppShellMonthUnlock", latest: "chxm1023" },  //C++ Shell
   'com.pl.ticiqi': { cm: 'timea', hx: 'hxpda', id: "TiciqiMonthUnlock", latest: "chxm1023" },  //提词器
