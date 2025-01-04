@@ -54,6 +54,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Wishy': { name: 'Wishy Subscription', id: 'wishy_lifetime_subscription', cm: 'sjc' },  //Wishy-记录愿望
   'Fontsify': { name: 'pro', id: 'media.upstate.fontify.lifetime', cm: 'sjb' },  //Fontsify-字体
   'com.dison.diary': { name: 'vip', id: 'lifetime', cm: 'sjb' },  //随心记
   'Food-Diary': { name: 'Premium', id: 'fd_lifetime', cm: 'sjb' },  //美食日记
