@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'FoodIdentificationTool': { cm: 'timeb', hx: 'hxpda', id: "20002", latest: "chxm1023" },  //剂查查
   'com.qingcheng.seal.Seal': { cm: 'timeb', hx: 'hxpda', id: "com.qingcheng.seal.Seal.premium.forever", latest: "chxm1023" },  //印章制作
   'com.idealityapp.VideoEditing': { cm: 'timeb', hx: 'hxpda', id: "MagicVideo_Vip_Permanent", latest: "chxm1023" },  //魔影-视频剪辑
   'com.pl.c': { cm: 'timea', hx: 'hxpda', id: "CShellMonthUnlock", latest: "chxm1023" },  //C Shell
