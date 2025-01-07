@@ -26,10 +26,16 @@ const ua = headers['User-Agent'] || headers['user-agent'];
 const bundle_id = headers['X-Client-Bundle-ID'] || headers['x-client-bundle-id'];
 
 //排除已禁止MITM的APP
-const forbiddenApps = ['Fileball', 'APTV'];
+const forbiddenApps = ['Rond', 'Fileball', 'APTV'];
+/*
 const forbiddenAppFound = forbiddenApps.find(appName => (ua && ua.includes(appName)) || ($request.body && $request.body.includes(appName)));
 if (forbiddenAppFound) {
   console.log(`发现禁止MITM的APP: ${forbiddenAppFound}，已停止运行脚本！\n叮当猫の分享频道: https://t.me/chxm1023`);
+  $done({});
+}
+*/
+if (forbiddenApps.some(app => (ua && ua.includes(app)) || ($request.body && $request.body.includes(app)))) {
+  console.log("⛔️ 检测到禁止 MITM 的 APP，脚本停止运行！");
   $done({});
 }
 
