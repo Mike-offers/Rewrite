@@ -8,7 +8,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https:\/\/api\.weibo\.cn\/2\/(users\/show|statuses\/user_timeline|profile\/statuses\/tab)\? url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/JibJab.js
+^https:\/\/api\.weibo\.cn\/2\/(users\/show|statuses\/user_timeline|profile\/statuses\/tab)\? url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Vvebo.js
 
 [mitm]
 hostname = api.weibo.cn
