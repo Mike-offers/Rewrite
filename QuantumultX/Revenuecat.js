@@ -60,6 +60,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'ShellBean': { name: 'pro', id: 'com.ningle.shellbean.iap.forever', cm: 'sjb' },  //ShellBean-SSH终端
   'Wishy': { name: 'Wishy Subscription', id: 'wishy_lifetime_subscription', cm: 'sjb' },  //Wishy-记录愿望
   'Fontsify': { name: 'pro', id: 'media.upstate.fontify.lifetime', cm: 'sjb' },  //Fontsify-字体
   'com.dison.diary': { name: 'vip', id: 'lifetime', cm: 'sjb' },  //随心记
