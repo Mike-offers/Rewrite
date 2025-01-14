@@ -24,8 +24,7 @@ var productidarrays={
 'com.lightricks.Enlight-Video':['Videoleap','com.lightricks.EnlightVideo_V2.PQ.OTP.SA_OTP.SA'],
 'com.lightricks.Enlight-Phoenix_V2.PB.OTP.SA_OTP.SA':['Motionleap','com.lightricks.EnlightPhoenix_V2.PB.OTP.SA_OTP.SA'],
 'com.lightricks.Enlight-Photos':['Lightleap','com.lightricks.EnlightPhotos_V2.PA.OTP.SA_OTP.SA'],
-'com.lightricks.Lightwave.':['Beatleap','com.lightricks.Lightwave_V5.PB_OTP.SA']
-,
+'com.lightricks.Lightwave.':['Beatleap','com.lightricks.Lightwave_V5.PB_OTP.SA'],
 'com.lightricks.Enlight-Quickart':['Artleap','com.lightricks.Quickart_V5.PA_OTP.SA'],
 'com.lightricks.Antares':['Boosted','com.lightricks.Antares_V2.PB.OTP.SA_OTP.SA'],
 'com.lightricks.Bambi':['Seen','com.lightricks.Bambi_V5.PB_OTP.SA']
