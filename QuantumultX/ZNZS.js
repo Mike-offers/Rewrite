@@ -9,11 +9,11 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local] 
-^https?:\/\/(www\.kaolahome\.com\/xunnews|cat-revenuecat-qscqkotbrh\.cn-hongkong\.fcapp\.run)\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/ZNZS.js
-^https?:\/\/(www\.kaolahome\.com\/xunnews|cat-revenuecat-qscqkotbrh\.cn-hongkong\.fcapp\.run)\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-header https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/ZNZS.js
+^https?:\/\/(www\.kaolahome\.com\/xunnews|cat-revenuecat-qscqkotbrh\.cn-hongkong\.fcapp\.run)\/.+\/(receipts$|subscribers\/?(.*?)*$|product_entitlement_mapping|offers$) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/ZNZS.js
+^https?:\/\/(www\.kaolahome\.com\/xunnews|cat-revenuecat-qscqkotbrh\.cn-hongkong\.fcapp\.run)\/.+\/(receipts$|subscribers\/?(.*?)*$|product_entitlement_mapping|offers$) url script-response-header https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/ZNZS.js
 
 [mitm]
-hostname = diary-id.sumi.io
+hostname = www.kaolahome.com, cat-revenuecat-qscqkotbrh.cn-hongkong.fcapp.run
 
 *************************************/
 
@@ -31,13 +31,13 @@ if (typeof $response == "undefined") {
     TrollstoreMios.subscriber.subscriptions = TrollstoreMios.subscriber.subscriptions || {};
     TrollstoreMios.subscriber.entitlements = TrollstoreMios.subscriber.entitlements || {};
     const data = {
-	    "product_identifier": (appid),
-	    "expires_date": "2099-09-09T09:09:09Z",
-	    "purchase_date": "2022-09-09T09:09:09Z"
-	};
-  TrollstoreMios.subscriber.entitlements[(name)] = (data);
-  TrollstoreMios.subscriber.subscriptions[(appid)] = {  ...data,	"Author": "Mike",	"Telegram": "TrollStoreKios",	"warning": "仅供学习，禁止转载或售卖",	"original_purchase_date": "2022-09-09T09:09:09Z",	"store": "app_store",	"ownership_type": "PURCHASED"};
-  TrollStoreKios.body = JSON.stringify(TrollstoreMios);
+      "product_identifier": (appid),
+      "expires_date": "2099-09-09T09:09:09Z",
+      "purchase_date": "2022-09-09T09:09:09Z"
+    };
+    TrollstoreMios.subscriber.entitlements[(name)] = (data);
+    TrollstoreMios.subscriber.subscriptions[(appid)] = {  ...data,	"Author": "Mike",	"Telegram": "TrollStoreKios",	"warning": "仅供学习，禁止转载或售卖",	"original_purchase_date": "2022-09-09T09:09:09Z",	"store": "app_store",	"ownership_type": "PURCHASED"};
+    TrollStoreKios.body = JSON.stringify(TrollstoreMios);
 }
 
 $done(TrollStoreKios);
