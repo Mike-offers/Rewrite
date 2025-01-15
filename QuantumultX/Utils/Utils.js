@@ -1,4 +1,5 @@
 ﻿/*
+//By xzxxn777
 async function loadUtils() {
     let code = $.getdata('Utils_Code') || '';
     if (code && Object.keys(code).length) {
@@ -9,7 +10,7 @@ async function loadUtils() {
     console.log(`🚀 ${$.name}: 开始下载Utils代码`)
     return new Promise(async (resolve) => {
         $.getScript(
-            'https://mirror.ghproxy.com/https://raw.githubusercontent.com/xzxxn777/Surge/main/Utils/Utils.js'
+            'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Utils/Utils.js'
         ).then((fn) => {
             $.setdata(fn, "Utils_Code")
             eval(fn)
