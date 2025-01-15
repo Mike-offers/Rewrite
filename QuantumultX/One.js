@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/api\.\w+\.com\/v2\.4\/(bootstrap|article\/detail) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/One.js
+^https?:\/\/api\.\w+\.com\/v\d\.4\/(bootstrap|article\/detail) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/One.js
 ^https?:\/\/api\..*\.com\/.+\/ad\/space url reject
 
 [mitm]
