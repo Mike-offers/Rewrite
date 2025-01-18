@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  '%E5%B0%8F%E5%B0%8F%E7%9B%B8%E6%9C%BA%E5%A4%A7%E5%B8%88': { cm: 'timeb', hx: 'hxpda', id: "com.ai.merge.forever.vip", latest: "ddm1023" },  //乐颜
   'com.moiseum.dailyart': { cm: 'timeb', hx: 'hxpda', id: "com.moiseum.dailyart.subscription.Patron", latest: "chxm1023" },  //维克音乐作者App通杀
   'FoodIdentificationTool': { cm: 'timeb', hx: 'hxpda', id: "20002", latest: "chxm1023" },  //剂查查
   'com.qingcheng.seal.Seal': { cm: 'timeb', hx: 'hxpda', id: "com.qingcheng.seal.Seal.premium.forever", latest: "chxm1023" },  //印章制作
