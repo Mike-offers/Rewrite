@@ -5,7 +5,7 @@
 脚本作者：WeiGiegie
 更新时间：2025年1月15日
 电报频道：https://t.me/GieGie777
-额外说明：此脚本采用会员数据共享方法解锁会员，共享数据为registerTime uid tikcet三个变量，需定期替换，会员接口为：https://slzd.lovebabyforever.workers.dev/
+额外说明：此脚本采用会员数据共享方法解锁会员，共享数据为registerTime uid tikcet三个变量，需定期替换，会员接口(来源baby)为：https://slzd.lovebabyforever.workers.dev/
 使用声明：此脚本仅供学习与交流、自用备份，勿用于商业用途！请在下载使用24小时内删除！请勿在中国大陆转载与贩卖！
 
 [rewrite_local]
