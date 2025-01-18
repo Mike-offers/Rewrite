@@ -10,7 +10,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https:\/\/((api\.(revenuecat|rc-backup))|isi\.csan\.goodnotes)\.com\/.+\/(receipts$|subscribers\/[^\/]+$|offers|product_entitlments_mapping$) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/ItunesDemo.js
+^https:\/\/((api\.(revenuecat|rc-backup))|isi\.csan\.goodnotes)\.com\/.+\/(receipts$|subscribers\/[^\/]+$||product_entitlement_mapping|offers$) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/ItunesDemo.js
 
 [mitm]
 hostname = api.revenuecat.com , api.rc-backup.com , isi.csan.goodnotes.com
