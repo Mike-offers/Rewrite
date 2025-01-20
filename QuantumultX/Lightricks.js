@@ -73,3 +73,47 @@ Mike.receipt = {
 Mike.valid = true;
 
 $done({body : JSON.stringify(Mike)});
+
+/*
+{
+  "receipt" : {
+    "environment" : "production",
+    "originalPurchaseDateTime" : 1696562094000,
+    "receiptType" : "Production",
+    "subscription" : {
+      "expired" : false,
+      "isFraud" : false,
+      "originalPurchaseDateTime" : 1734332075000,
+      "originalTransactionId" : "260002076430152",
+      "pendingRenewalInfo" : {
+        "expectedRenewalProductId" : "com.lightricks.Facetune2.V3.PricingAug22M10Trial.1WTrial.Yearly",
+        "willAutoRenew" : true
+      },
+      "productId" : "com.lightricks.Facetune2.V3.PricingAug22M10Trial.1WTrial.Yearly",
+      "lastPurchaseDateTime" : 1734332074000,
+      "transactionId" : "260002076430152",
+      "expiresDateTime" : 1734936874000
+    },
+    "transactions" : [
+      {
+        "originalPurchaseDateTime" : 1734332075000,
+        "isTrialPeriod" : true,
+        "originalTransactionId" : "260002076430152",
+        "productId" : "com.lightricks.Facetune2.V3.PricingAug22M10Trial.1WTrial.Yearly",
+        "purchaseDateTime" : 1734332074000,
+        "quantity" : 1,
+        "isIntroOfferPeriod" : true,
+        "transactionId" : "260002076430152",
+        "expiresDateTime" : 1734936874000
+      }
+    ]
+  },
+  "bundle" : "com.lightricks.Facetune2",
+  "originalPurchaseDateTime" : 1696562094000,
+  "requestId" : "c1f8b0ea-ad6f-472c-9f94-271ce216fe36",
+  "currentDateTime" : 1734332078005,
+  "valid" : true
+}
+
+https://oregon-api.lightricks.com/store/v1/validateReceipt
+*/
