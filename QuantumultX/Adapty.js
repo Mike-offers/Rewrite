@@ -27,6 +27,7 @@ const profileid = headers['adapty-sdk-profile-id'] || headers['ADAPTY-SDK-PROFIL
 const time = Date.now();
 
 const list = {
+  'ArtGenerator': { dy: 'dypda', id: "yearly_premium_artgenerator", bundle_id: "co.appnation.artgenerator" },  //Monet
   'KeyboardGPT': { dy: 'dypda', id: "smart.keyboard.yearly.01", bundle_id: "com.smart.keyboard" },  //AiChatbot
   'SketchAR': { dy: 'dypda', id: "tech.sketchar.subscription.yearly", bundle_id: "tech.sketchar.ios" },  // Sketchar-AR画图应用
   'universal': { dy: 'dypda', id: "remotetv.yearly.01", bundle_id: "com.universal.remotetv", },  // TVRemote万能遥控器
