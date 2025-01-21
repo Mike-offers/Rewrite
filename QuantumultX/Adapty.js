@@ -20,7 +20,7 @@ hostname = api.adapty.io
 *************************************/
 
 
-let chxm1023 = JSON.parse($response.body);
+let ddm1023 = JSON.parse($response.body);
 const headers = $request.headers;
 const ua = headers['User-Agent'] || headers['user-agent'];
 const profileid = headers['adapty-sdk-profile-id'] || headers['ADAPTY-SDK-PROFILE-ID'];
@@ -92,8 +92,8 @@ for (const key in list) {
     }
     
     if (/analytics\/profiles|purchase\/app-store/.test($request.url)) {
-      chxm1023.data = {
-        ...chxm1023.data,
+      ddm1023.data = {
+        ...ddm1023.data,
         "type" : "adapty_purchase_app_store_original_transaction_id_validation_result",
         "id" : profileid,
         "attributes" : {
@@ -144,7 +144,7 @@ for (const key in list) {
     }
 
     if (/receipt\/validate|purchase-containers/.test($request.url)) {
-      chxm1023 = {
+      ddm1023 = {
         "data": {
           "type": "adapty_inapps_apple_receipt_validation_result",
           "id": profileid,
@@ -185,7 +185,7 @@ for (const key in list) {
                 }
               ],
               "latest_receipt_info": receiptdata,
-              "latest_receipt": "chxm1023"
+              "latest_receipt": "ddm1023"
             },
             "segment_hash": "8245f974014fdf4c",
             "subscriptions": subscriptions,
@@ -198,9 +198,9 @@ for (const key in list) {
       };
     }
 
-    console.log('已操作成功🎉🎉🎉\n叮当猫の分享频道: https://t.me/chxm1023');
+    console.log('已操作成功🎉🎉🎉\n叮当猫の分享频道: https://t.me/ddm1023');
     break;
   }
 }
 
-$done({ body: JSON.stringify(chxm1023) });
+$done({ body: JSON.stringify(ddm1023) });
