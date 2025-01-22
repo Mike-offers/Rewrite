@@ -60,6 +60,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Super%20VPN': { name: 'pro', id: 'superappiap101', cm: 'sjb' },  //Super VPN
   'Accountit': { name: 'spenditPlus', id: 'DesignTech.SIA.Spendit.Plus.Lifetime', cm: 'sjb' },  //Accountit-日常记账
   'Phtoto%20Swiper': { name: 'pro', id: 'rc_499_life', cm: 'sjb' },  //PhotoDeleteSwipe- 照片清理
   'ShellBean': { name: 'pro', id: 'com.ningle.shellbean.iap.forever', cm: 'sjb' },  //ShellBean-SSH终端
