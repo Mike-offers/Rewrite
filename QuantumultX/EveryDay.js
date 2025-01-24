@@ -12,7 +12,7 @@
 ^https?:\/\/api\.everyday\.app\/(users|makeIosSubscription) url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/EveryDay.js
 
 [mitm]
-hostname = apis.everyday.app
+hostname = api.everyday.app
 
 *************************************/
 
