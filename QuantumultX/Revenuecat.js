@@ -60,6 +60,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Vinyls': { name: 'AllPro', id: 'com.shi.Vin.lifetime', cm: 'sjb' },  //Vinyls-音乐APP
   'Super%20VPN': { name: 'pro', id: 'superappiap101', cm: 'sjb' },  //Super VPN
   'Accountit': { name: 'spenditPlus', id: 'DesignTech.SIA.Spendit.Plus.Lifetime', cm: 'sjb' },  //Accountit-日常记账
   'Phtoto%20Swiper': { name: 'pro', id: 'rc_499_life', cm: 'sjb' },  //PhotoDeleteSwipe- 照片清理
