@@ -17,12 +17,7 @@ hostname = fitness-notes\.nanxiani.cn
 *************************************/
 
 var Mike = JSON.parse($response.body);
-Mike = {
-   "code" : 200,
-  "message" : "success",
-  "timestamp" : 1738089445,
-  "data" : {
-    "lifetime_retention_info" : {
+Mike.data.lifetime_retention_info = {
       "activity_end_time" : null,
       "activity_start_time" : null,
       "vip_type" : "normal_permanent",
@@ -47,8 +42,9 @@ Mike = {
       "price" : "88",
       "txt_conversion_price" : null,
       "description" : "仅需一次付费，永久享受VIP权益"
-    },
-    "lifetime_retention_original_info" : {
+    };
+
+Mike.data.lifetime_retention_original_info = {
       "activity_end_time" : null,
       "activity_start_time" : null,
       "vip_type" : "normal_permanent",
@@ -73,9 +69,6 @@ Mike = {
       "price" : "88",
       "txt_conversion_price" : null,
       "description" : "仅需一次付费，永久享受VIP权益"
-    }
-}
+    };
 
-body = JSON.stringify(Mike); 
-
-$done({body}); 
+$done({body:JSON.stringify(Mike)});
