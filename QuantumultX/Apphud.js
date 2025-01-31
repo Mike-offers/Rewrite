@@ -19,8 +19,7 @@ hostname = *.apphud.com
 
 *************************************/
 
-
-const chxm1023 = JSON.parse(typeof $response != "undefined" && $response.body || "{}");
+const ddm1023 = JSON.parse(typeof $response != "undefined" && $response.body || "{}");
 
 const list = [
   "1year7days80",  //Bright
@@ -75,21 +74,21 @@ const processPaywalls = (paywalls) => {
   return subscriptions;
 };
 
-if (!chxm1023.data) chxm1023.data = {};
-if (!chxm1023.data.results) chxm1023.data.results = {};
-if (!Array.isArray(chxm1023.data.results.subscriptions)) {
-  chxm1023.data.results.subscriptions = [];
+if (!ddm1023.data) ddm1023.data = {};
+if (!ddm1023.data.results) ddm1023.data.results = {};
+if (!Array.isArray(ddm1023.data.results.subscriptions)) {
+  ddm1023.data.results.subscriptions = [];
 }
 
-if (chxm1023.data.results.paywalls) {
-  const subscriptions = processPaywalls(chxm1023.data.results.paywalls);
+if (ddm1023.data.results.paywalls) {
+  const subscriptions = processPaywalls(ddm1023.data.results.paywalls);
   for (const sub of subscriptions) {
-    chxm1023.data.results.subscriptions.push(sub);
+    ddm1023.data.results.subscriptions.push(sub);
   }
 }
 
 for (const productId of list) {
-  chxm1023.data.results.subscriptions.push(createSubscription(productId));
+  ddm1023.data.results.subscriptions.push(createSubscription(productId));
 }
 
-$done({ body: JSON.stringify(chxm1023) });
+$done({ body: JSON.stringify(ddm1023) });
