@@ -1,0 +1,19 @@
+#!name=Unlock Any Revenuecat
+#!desc=Auto All Revenuecat, GoodbyeRevenuecat
+[MITM]
+hostname = %APPEND% api.revenuecat.com, isi.csan.goodnotes.com
+
+[Header Rewrite]
+#Anticache
+.+ header-del if-modified-since
+.+ header-del if-none-match
+.+ header-del X-RevenueCat-ETag
+.+ header-del x-revenuecat-etag
+
+[URL Rewrite]
+^https:\/\/(api\.revenuecat|isi.csan.goodnotes)\.com\/.+\/(receipts$|subscribers\/[^/]+$|offers$) https://api.langkhach89.workers.dev header
+
+/*
+https://api.langkhach89.workers.dev的内容为：
+{"welcome":"LK busy smocking (https://t.me/LKTEAM23)","request_date_ms":1704664060864,"request_date":"2024-01-07T21:47:40Z","subscriber":{"non_subscriptions":{},"first_seen":"2024-01-07T21:42:02Z","original_application_version":"1","other_purchases":{},"management_url":"https://t.me/LKTEAM23","subscriptions":{},"entitlements":{},"original_purchase_date":"2024-01-07T21:38:41Z","original_app_user_id":"$RCAnonymousID:06923c3f1dfc4f23b1b56c9e24dbdffc","last_seen":"2024-01-07T21:42:02Z"}}
+*/
