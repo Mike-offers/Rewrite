@@ -14,7 +14,7 @@
 https:\/\/api\.imem\.apple\.app\/api\/premium\/getOwnStatus url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/iMe.js
 
 [mitm]
-hostname = -api.imem.app
+hostname = api.imem.app
 
 *************************************/
 
