@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https?:\/\/api\.anamy\.xyz\/public\/aemulo\/purchased url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/1998KT.js
+^https?:\/\/api\.anamy\.xyz\/public\/aemulo\/purchased url script-response-body https://raw.githubusercontent.com/Mike-offers/Rewrite/refs/heads/master/QuantumultX/Aemulojs
 
 [mitm]
 hostname = api.anamy.xyz
