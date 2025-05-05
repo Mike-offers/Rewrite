@@ -31,6 +31,7 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'com.seawardhyacinth.pokecut': { cm: 'timeb', hx: 'hxpda', id: "com.seawardhyacinth.pokecut.lifetimevip0421", latest: "ddm1023" }, //PokeCut快咔
   'DSCloud': { cm: 'timeb', hx: 'hxpda', id: "dscloudalllife", latest: "ddm1023" }, //DS Cloud
   'DuChuangZhe': { cm: 'timea', hx: 'hxpda', id: "org.zrey.du.main", latest: "ddm1023" }, //独创者
   'PhotoWhite': { cm: 'timeb', hx: 'hxpda', id: "org.zrey.photowhite.flash_lifetime", latest: "ddm1023" },  //印白  'IWhiteBoard': { cm: 'timeb', hx: 'hxpda', id: "cn.readpad.tool.iwhiteboard.coffee006", latest: "ddm1023" },  //白板
