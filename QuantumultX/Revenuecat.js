@@ -60,6 +60,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Walli%20%WallPaper': { name: 'Pro', id: 'com.wallpaper.lifetime', cm: 'sjb' },  //Walli WallPaper
   'AICalculator': { name: 'Premium', id: 'com.simpleinnovation.calculator.ai.premium.yearly.base', cm: 'sja' },  //计算器AI
   'Vinyls': { name: 'AllPro', id: 'com.shi.Vin.lifetime', cm: 'sjb' },  //Vinyls-音乐APP
   'Super%20VPN': { name: 'pro', id: 'superappiap101', cm: 'sjb' },  //Super VPN
