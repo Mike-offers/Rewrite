@@ -31,6 +31,9 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
+  'co.au.WeatherAssitantWidget': { cm: 'timeb', hx: 'hxpda', id: "co.au.WeatherAssitantWidget.buy.unlock_all", latest: "ddm1023" }, //天气小组件
+  'com.westkingnet.widgetart': { cm: 'timeb', hx: 'hxpda', id: "widgetart_sub2_lifetime1", latest: "ddm1023" }, //Widget Art
+  'WidgetMaker': { cm: 'timea', hx: 'hxpda', id: "com.pro.widgetsmaker", latest: "ddm1023" }, //Widget Maker
   'com.seawardhyacinth.pokecut': { cm: 'timeb', hx: 'hxpda', id: "com.seawardhyacinth.pokecut.lifetimevip0421", latest: "ddm1023" }, //PokeCut快咔
   'DSCloud': { cm: 'timeb', hx: 'hxpda', id: "dscloudalllife", latest: "ddm1023" }, //DS Cloud
   'DuChuangZhe': { cm: 'timea', hx: 'hxpda', id: "org.zrey.du.main", latest: "ddm1023" }, //独创者
